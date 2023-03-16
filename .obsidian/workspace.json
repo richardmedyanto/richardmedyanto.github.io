@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "2985af756988e11c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7eaa412594fae82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c009f24b9eca15ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/page/cv/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd3037807479edce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/placeholder/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b9bb765867a3da1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "67fbe1cfd30f2a45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f445b3351fbaafb9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "02b7cd3135949761",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "594ba0622f4e763c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9f46741b13da3922",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5d8e969c4938565",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd95926b1ca7f8be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/page/cv/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce6df91da6bd365f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/page/cv/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8a8ebe0e620fe821",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7416968a25860ad5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/page/cv/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f445b3351fbaafb9",
+  "lastOpenFiles": [
+    "content/post/hello-world/index.md",
+    "content/page/cv/index.md",
+    "content/page/cv",
+    "assets/icons/school.svg",
+    "content/post/placeholder/index.md",
+    "content/post/hello-world/cover.jpg",
+    "resources/_gen/images/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/placeholder/_hu8859110cb21cc5adf9783227656fa1bd_3016486_49ba7128e69a45e8436f4ac63666d8ba.jpg",
+    "resources/_gen/images/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_800x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_120x120_fill_q75_box_smart1.jpg",
+    "resources/_gen/images/post/placeholder",
+    "content/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash.jpg",
+    "assets/icons/brand-linkedin.svg",
+    "assets/icons/brand-instagram.svg",
+    "assets/icons",
+    "assets/img/avatar.jpeg",
+    "assets/img",
+    "assets/jsconfig.json",
+    "assets",
+    "static/img",
+    "static",
+    "config/_default/avatar",
+    "content/page/archives/index.md",
+    "content/page/links/index.md"
+  ]
+}

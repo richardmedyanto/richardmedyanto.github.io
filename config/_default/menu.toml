@@ -10,15 +10,26 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
+weight = 1
 url = "https://github.com/richardmedyanto"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "linkedin"
+name = "LinkedIn"
+weight = 2
+url = "https://www.linkedin.com/in/richardmedyanto"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-linkedin"
+
+[[social]]
+identifier = "instagram"
+name = "Instagram"
+weight = 3
+url = "https://instagram.com/richardmedyanto"
+
+[social.params]
+icon = "brand-instagram"
