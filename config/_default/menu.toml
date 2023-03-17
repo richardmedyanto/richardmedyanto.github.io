@@ -33,3 +33,13 @@ url = "https://instagram.com/richardmedyanto"
 
 [social.params]
 icon = "brand-instagram"
+
+
+[[social]]
+identifier = "whatsapp"
+name = "Whatsapp"
+weight = 4
+url = "https://wa.me/6285155288411"
+
+[social.params]
+icon = "brand-whatsapp"

@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c009f24b9eca15ae",
+            "id": "bd3037807479edce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/page/cv/index.md",
+                "file": "content/post/impact-prevention/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bd3037807479edce",
+            "id": "1a5a22aee1a85b59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/placeholder/index.md",
+                "file": "content/post/light-seeking-robot/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/page/cv/index.md",
+                "file": "content/post/impact-prevention/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/page/cv/index.md",
+                "file": "content/post/impact-prevention/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/page/cv/index.md"
+                "file": "content/post/impact-prevention/index.md"
               }
             }
           }
@@ -158,30 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f445b3351fbaafb9",
+  "active": "bd3037807479edce",
   "lastOpenFiles": [
-    "content/post/hello-world/index.md",
+    "content/post/light-seeking-robot/index.md",
+    "content/post/impact-prevention/index.md",
+    "resources/_gen/images/post/impact-prevention/prototype_hub8e2cba4cef5b68b2cd9c4001806d2c5_369106_1024x0_resize_box_3.png",
+    "resources/_gen/images/post/impact-prevention/prototype_hub8e2cba4cef5b68b2cd9c4001806d2c5_369106_480x0_resize_box_3.png",
+    "content/post/impact-prevention/prototype.png",
+    "resources/_gen/images/post/impact-prevention/pot_turn_hue86ab40088d3aaecb89daa0e23fbdfbc_36837_1024x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/impact-prevention/pot_turn_hue86ab40088d3aaecb89daa0e23fbdfbc_36837_480x0_resize_q75_box.jpg",
+    "content/post/impact-prevention/pot_turn.jpg",
+    "resources/_gen/images/post/impact-prevention/schematic_consys_hu925d696f6f13de582260b5ce28ca5335_88545_1024x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/impact-prevention/schematic_consys_hu925d696f6f13de582260b5ce28ca5335_88545_480x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/impact-prevention",
+    "content/post/impact-prevention/schematic_consys.jpg",
+    "resources/_gen/images/post/placeholder copy 4/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/placeholder copy 4",
+    "resources/_gen/images/post/placeholder 3",
+    "resources/_gen/images/post/placeholder copy 2",
+    "content/categories/projects/_index.md",
+    "content/categories/projects",
+    "resources/_gen/images/post/placeholder copy 3",
+    "resources/_gen/images/post/placeholder2",
+    "layouts/shortcodes/image-resize.html",
+    "layouts/shortcodes",
+    "layouts",
+    "content/categories/campus-projects/_index.md",
     "content/page/cv/index.md",
-    "content/page/cv",
-    "assets/icons/school.svg",
-    "content/post/placeholder/index.md",
-    "content/post/hello-world/cover.jpg",
-    "resources/_gen/images/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/placeholder/_hu8859110cb21cc5adf9783227656fa1bd_3016486_49ba7128e69a45e8436f4ac63666d8ba.jpg",
-    "resources/_gen/images/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_800x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_120x120_fill_q75_box_smart1.jpg",
-    "resources/_gen/images/post/placeholder",
-    "content/post/placeholder/joseph-costa--jajXzQ1OrQ-unsplash.jpg",
-    "assets/icons/brand-linkedin.svg",
-    "assets/icons/brand-instagram.svg",
-    "assets/icons",
-    "assets/img/avatar.jpeg",
-    "assets/img",
-    "assets/jsconfig.json",
-    "assets",
-    "static/img",
-    "static",
-    "config/_default/avatar",
+    "content/post/placeholder copy 4/index.md",
+    "content/post/placeholder copy 3/index.md",
+    "content/post/placeholder copy 2/index.md",
+    "placeholder 3/index.md",
+    "content/post/placeholder2/index.md",
+    "placeholder/placeholder2/index.md",
+    "placeholder/placeholder/index.md",
+    "placeholder/index.md",
+    "content/post/placeholder copy/index.md",
+    "content/page/search/index.md",
+    "content/post/hello-world/index.md",
     "content/page/archives/index.md",
     "content/page/links/index.md"
   ]
