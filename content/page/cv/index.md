@@ -33,7 +33,7 @@ comments: false
 
 * Programming Languages: Python, SQL, C, C++, Arduino, Rust, Matlab, VHDL
 * Machine Learning: TensorFlow, Keras, OpenCV, RapidMiner
-* Tools: Git, Jupyter Notebook
+* Tools: Git, Jupyter Notebook, ROS2
 
 ## Selected Projects
 
@@ -46,7 +46,8 @@ comments: false
 
 * Description: A project I learned to make in a [Python online course](https://www.udemy.com/course/100-days-of-code/). I modified the provided code to add Chinese and Japanese flashcards.
 * Technologies Used: Python
-* Link: [GitHub](https://github.com/richardmedyanto/language-flashcard)
+* [Blog](/p/flashcard-python)
+* [GitHub](https://github.com/richardmedyanto/language-flashcard)
 
 ### FIR and IIR Implementation in VHDL
 
@@ -70,8 +71,11 @@ comments: false
 ### [Others](/archives)
 
 ## Certificates
-* something
-* something else
+- [RapidMiner Machine Learning Professional Certification](https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/4caed482-8054-4128-bab0-e9b2fe8947aa-richard-medyanto-22163235-da59-452b-9ccb-71a7e3146646-certificate.pdf)
+- [freeCodeCamp Machine Learning with Python Developer Certification](https://www.freecodecamp.org/certification/richardmedyanto/machine-learning-with-python-v7)
+- [Udemy ROS2 Course Certificate](https://www.udemy.com/certificate/UC-fedeef4c-dd3e-4971-a354-3a652d3a4bb9/)
+- [Udemy Python for Computer Vision Course Certificate](https://www.udemy.com/certificate/UC-a0f1a58f-a847-40ac-831a-8a8de0e762a2/)
+- [Udemy Rust Course Certificate](https://www.udemy.com/certificate/UC-64d614db-951d-415d-84db-dd34e14f1e15/)
 
 ## Interests
 
