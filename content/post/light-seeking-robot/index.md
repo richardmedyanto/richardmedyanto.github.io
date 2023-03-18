@@ -7,7 +7,7 @@ categories:
     - projects
 
 ---
-> This project was made for Digital System course final exam in my 4th semester of undergraduate study.
+> This project was made for _Digital System_ course final exam in my 4th semester of undergraduate study.
 
 ## Objective
 

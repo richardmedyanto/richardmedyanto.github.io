@@ -8,7 +8,7 @@ categories:
 
 ---
 
-> This project was made for Control System course final exam in my 4th semester of undergraduate study.
+> This project was made for _Control System_ course final exam in my 4th semester of undergraduate study.
 
 ## Background
 
@@ -58,7 +58,7 @@ When the obstacle is even closer to the sensor, the lower comparator will also t
 ![Picture: The prototype](prototype.png "The prototype")
 
 ## Presentation
-In Indonesian
+(In Indonesian)
 
 {{< youtube w0EJugUqVQU >}}
 

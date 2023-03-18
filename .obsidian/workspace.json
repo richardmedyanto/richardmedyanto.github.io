@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d7eaa412594fae82",
+        "id": "d5aee844b07e7ad0",
         "type": "tabs",
         "children": [
           {
-            "id": "bd3037807479edce",
+            "id": "c4057c639f118cdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/impact-prevention/index.md",
+                "file": "content/post/language-flashcard/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1a5a22aee1a85b59",
+            "id": "118659a64599a964",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/light-seeking-robot/index.md",
+                "file": "content/post/finance-record-c/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0dac7ca6bc77dce5",
+            "id": "23a4184cc581aae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,33 +171,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dac7ca6bc77dce5",
+  "active": "23a4184cc581aae2",
   "lastOpenFiles": [
+    "content/post/fir-iir-vhdl/index.md",
+    "content/page/cv/index.md",
+    "content/post/finance-record-c/index.md",
+    "content/post/fir-iir-vhdl",
+    "resources/_gen/images/post/finance-record-c/example2_hu500751c1be1d589cfa71cb1f3c7e85af_38901_1024x0_resize_box_3.png",
+    "resources/_gen/images/post/finance-record-c/example2_hu500751c1be1d589cfa71cb1f3c7e85af_38901_480x0_resize_box_3.png",
+    "resources/_gen/images/post/finance-record-c/example1_hue0b90ee6178f540db192b454b6c96674_41649_1024x0_resize_box_3.png",
+    "resources/_gen/images/post/finance-record-c/example1_hue0b90ee6178f540db192b454b6c96674_41649_480x0_resize_box_3.png",
+    "resources/_gen/images/post/finance-record-c",
+    "content/post/finance-record-c/example1.png",
+    "content/post/finance-record-c/example2.png",
+    "content/post/language-flashcard/index.md",
+    "content/post/finance-record-c",
+    "resources/_gen/images/post/language-flashcard/no_pinyin_huc4fa40eae35da12c77b74f4f3a85274c_12994_1024x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/language-flashcard/no_pinyin_huc4fa40eae35da12c77b74f4f3a85274c_12994_480x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/language-flashcard/menu2_hud4a92599d0eaab6730c0fb4185afc51a_15439_1024x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/language-flashcard/menu2_hud4a92599d0eaab6730c0fb4185afc51a_15439_480x0_resize_q75_box.jpg",
+    "content/post/car-cabin-exhaust/index.md",
+    "content/post/language-flashcard/menu2",
+    "content/post/crash-prevention/index.md",
+    "().md",
+    "resources/_gen/images/post/language-flashcard",
+    "content/post/language-flashcard",
+    "content/post/medical-record-db/index.md",
+    "content/post/motorized-gate/index.md",
+    "content/post/crash-prevention",
+    "resources/_gen/images/post/medical-record-db",
+    "content/post/medical-record-db",
+    "resources/_gen/images/post/car-cabin-exhaust",
     "content/post/impact-prevention/index.md",
     "content/post/light-seeking-robot/index.md",
-    "resources/_gen/images/post/impact-prevention/prototype_hub8e2cba4cef5b68b2cd9c4001806d2c5_369106_1024x0_resize_box_3.png",
-    "resources/_gen/images/post/impact-prevention/prototype_hub8e2cba4cef5b68b2cd9c4001806d2c5_369106_480x0_resize_box_3.png",
-    "content/post/impact-prevention/prototype.png",
-    "resources/_gen/images/post/impact-prevention/pot_turn_hue86ab40088d3aaecb89daa0e23fbdfbc_36837_1024x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/impact-prevention/pot_turn_hue86ab40088d3aaecb89daa0e23fbdfbc_36837_480x0_resize_q75_box.jpg",
-    "content/post/impact-prevention/pot_turn.jpg",
-    "resources/_gen/images/post/impact-prevention/schematic_consys_hu925d696f6f13de582260b5ce28ca5335_88545_1024x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/impact-prevention/schematic_consys_hu925d696f6f13de582260b5ce28ca5335_88545_480x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/impact-prevention",
-    "content/post/impact-prevention/schematic_consys.jpg",
-    "resources/_gen/images/post/placeholder copy 4/joseph-costa--jajXzQ1OrQ-unsplash_hu8859110cb21cc5adf9783227656fa1bd_3016486_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/placeholder copy 4",
-    "resources/_gen/images/post/placeholder 3",
-    "resources/_gen/images/post/placeholder copy 2",
     "content/categories/projects/_index.md",
-    "content/categories/projects",
-    "resources/_gen/images/post/placeholder copy 3",
-    "resources/_gen/images/post/placeholder2",
-    "layouts/shortcodes/image-resize.html",
-    "layouts/shortcodes",
-    "layouts",
     "content/categories/campus-projects/_index.md",
-    "content/page/cv/index.md",
     "content/post/placeholder copy 4/index.md",
     "content/post/placeholder copy 3/index.md",
     "content/post/placeholder copy 2/index.md",

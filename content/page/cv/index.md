@@ -68,7 +68,7 @@ comments: false
 * Technologies used: Electrical components
 * [Blog](/p/impact-prevention) 
 
-### [Others](/archives)
+### [Others](/categories/projects/)
 
 ## Certificates
 - [RapidMiner Machine Learning Professional Certification](https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/4caed482-8054-4128-bab0-e9b2fe8947aa-richard-medyanto-22163235-da59-452b-9ccb-71a7e3146646-certificate.pdf)
