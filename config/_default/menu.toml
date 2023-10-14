@@ -43,3 +43,12 @@ url = "https://wa.me/6285155288411"
 
 [social.params]
 icon = "brand-whatsapp"
+
+[[social]]
+identifier = "email"
+name = "Mail"
+weight = 5
+url = "mailto:richard1medyanto@gmail.com"
+
+[social.params]
+icon = "brand-email"

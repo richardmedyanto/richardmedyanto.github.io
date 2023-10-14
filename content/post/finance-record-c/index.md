@@ -1,5 +1,5 @@
 ---
-title: "Simple Financial Recording App"
+title: "Simple Financial Recording App in C Language"
 description: "A CLI-based simple financial recording app written in C."
 slug: "finance-record-c"
 date: 2020-08-17 00:00:00+0000
@@ -11,7 +11,7 @@ categories:
 
 ## Background
 
-Financial records are pretty hard to manage. Many people, even businesses still keep them in paper, which need manual calculation of incomes and expenses. Some people who try to use existing financial recording apps can also find it difficult due to the abundance of features or functions available.
+Financial records are relatively hard to manage. A lot of businesses still keep them in paper, which require manual calculation of incomes and expenses. People who try to use existing apps can also find it difficult due to the abundance of features or functions available.
 
 ## Solution
 

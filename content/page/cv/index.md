@@ -10,14 +10,19 @@ menu:
 comments: false
 ---
 
-## Education
+## 🧑 Profile
 
-* SMA St. Louis 1 Surabaya, 2016-2019
-* Bachelor of Engineering, Automotive and Robotics Engineering Program, BINUS ASO School of Engineering, 2019-2023 (Expected)
+My name is Richard Medyanto, an engineer with a passion for everything to do with technology. I have experimented with the various fields technology could transform, ranging from automotive and green energy to agriculture, as seen in my multiple past projects. In my free time, I like to make coffee and learn about new things.
 
-## Work Experience
+## 💼 Work Experience
 
-### Hardware Engineer, Daun Pintar Raya, Oct 2022 - Present 
+### Intern, FA Support (ＦＡサポート), Aug 2023
+
+* Worked on developing a concept design for an automated tray dropper.
+* Collaborated with a team of students to create the 3D design and animation for the created concept.
+
+
+### Hardware Engineer, Daun Pintar Raya, Oct 2022 - Mar 2023 
 
 * Worked on developing and maintaining the company's flagship products (hydroponics farming IoT devices).
 * Collaborated with multiple teams to implement new features.
@@ -25,17 +30,16 @@ comments: false
 
 ### Hardware Engineer Intern, Baran Energy, Jul 2022 - Oct 2022
 
-* University internship program.
 * Worked on developing an IoT solution for hydroponics farming.
 * Assisted in research and internal testing.
 
-## Skills
+## 💻 Selected Projects
 
-* Programming Languages: Python, SQL, C, C++, Arduino, Rust, Matlab, VHDL
-* Machine Learning: TensorFlow, Keras, OpenCV, RapidMiner
-* Tools: Git, Jupyter Notebook, ROS2
+### Automatic Heliostat Directing System Based On Microcontroller ESP32
 
-## Selected Projects
+* Description: A heliostat prototype that keeps the reflection of sunlight on a fixed target with a mirror. Made for my undergraduate study capstone project. 
+* Technologies Used: ESP32, Arduino
+* [Blog](/p/heliostat)
 
 ### Hydroponics IoT Solution
 
@@ -56,7 +60,7 @@ comments: false
 * [Blog](/p/fir-iir-vhdl)
 * [GitHub](https://github.com/richardmedyanto/DigitalSystem)
 
-### Simple Financial Recording App in C language
+### Simple Financial Recording App in C Language
 
 * Description: A CLI-based simple financial recording app, made for Algorithm and Programming Fundamentals course.
 * Technologies used: C language
@@ -70,17 +74,30 @@ comments: false
 
 ### [Others](/categories/projects/)
 
-## Certificates
+
+## 🎓 Education
+
+* Bachelor of Engineering (Sarjana Teknik, S.T.), Automotive and Robotics Engineering Program, BINUS ASO School of Engineering, 2019-2023
+* High School, SMA St. Louis 1 Surabaya, 2016-2019
+
+
+## 🧰 Skills
+
+* Programming Languages: Python, SQL, C, C++, Arduino, Rust, Matlab, VHDL
+* Machine Learning: TensorFlow, Keras, OpenCV, RapidMiner
+* Tools: Git, Jupyter Notebook, ROS2
+
+## 📜 Certificates
 - [RapidMiner Machine Learning Professional Certification](https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/4caed482-8054-4128-bab0-e9b2fe8947aa-richard-medyanto-22163235-da59-452b-9ccb-71a7e3146646-certificate.pdf)
 - [freeCodeCamp Machine Learning with Python Developer Certification](https://www.freecodecamp.org/certification/richardmedyanto/machine-learning-with-python-v7)
 - [Udemy ROS2 Course Certificate](https://www.udemy.com/certificate/UC-fedeef4c-dd3e-4971-a354-3a652d3a4bb9/)
 - [Udemy Python for Computer Vision Course Certificate](https://www.udemy.com/certificate/UC-a0f1a58f-a847-40ac-831a-8a8de0e762a2/)
 - [Udemy Rust Course Certificate](https://www.udemy.com/certificate/UC-64d614db-951d-415d-84db-dd34e14f1e15/)
 
-## Interests
+## ⭐ Interests
 
 * Artificial Intelligence
 * Robotics
-* Data Science
+* Control Engineering
 * Internet of Things
 * Sustainability
