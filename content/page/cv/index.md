@@ -20,18 +20,20 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 
 * Worked on developing a concept design for an automated tray dropper.
 * Collaborated with a team of students to create the 3D design and animation for the created concept.
-
+* [Blog](/p/2023-summer-course/#fa-support-internship)
 
 ### Hardware Engineer, Daun Pintar Raya, Oct 2022 - Mar 2023 
 
 * Worked on developing and maintaining the company's flagship products (hydroponics farming IoT devices).
 * Collaborated with multiple teams to implement new features.
 * Assisted in horticulture research and out-of-office testing.
+* [Blog](/p/daun-pintar)
 
 ### Hardware Engineer Intern, Baran Energy, Jul 2022 - Oct 2022
 
 * Worked on developing an IoT solution for hydroponics farming.
 * Assisted in research and internal testing.
+* [Blog](/p/baran-internship)
 
 ## 💻 Selected Projects
 
@@ -83,9 +85,10 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 
 ## 🧰 Skills
 
-* Programming Languages: Python, SQL, C, C++, Arduino, Rust, Matlab, VHDL
+* Programming Languages: Python, SQL, C, C++, Arduino, Rust, Matlab, VHDL, Kotlin
 * Machine Learning: TensorFlow, Keras, OpenCV, RapidMiner
 * Tools: Git, Jupyter Notebook, ROS2
+* PLC, microcontroller and electrical engineering knowledge
 
 ## 📜 Certificates
 - [RapidMiner Machine Learning Professional Certification](https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/4caed482-8054-4128-bab0-e9b2fe8947aa-richard-medyanto-22163235-da59-452b-9ccb-71a7e3146646-certificate.pdf)
