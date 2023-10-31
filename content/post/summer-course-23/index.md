@@ -19,3 +19,5 @@ The event was made possible by the collaboration between Binus University (Indon
 ## FA Support Internship
 
 The summer course also included a month-long internship program. The company I interned at is called FA Support (ＦＡサポート), a Japanese industrial automation company. The internship began before the summer course had started. We were briefed about the requirement of the project, which was to make an automated tray dropper concept. The output of this project was a 3D design and presentation of our concept. During the summer course, we presented our work to the company president and other staff members, who were kind enough to give feedback about our creations, which prompted several improvements for the final presentation. Overall, this internship was a short but interesting experience.
+
+![Certificate for the internship](summer_course_certificate.jpg)

@@ -91,6 +91,8 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 * PLC, microcontroller and electrical engineering knowledge
 
 ## 📜 Certificates
+
+- TOEFL iBT: 111/120 with 30/30 in reading, 27/30 in listening, 26/30 in speaking and 28/30 in writing
 - [RapidMiner Machine Learning Professional Certification](https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/4caed482-8054-4128-bab0-e9b2fe8947aa-richard-medyanto-22163235-da59-452b-9ccb-71a7e3146646-certificate.pdf)
 - [freeCodeCamp Machine Learning with Python Developer Certification](https://www.freecodecamp.org/certification/richardmedyanto/machine-learning-with-python-v7)
 - [Udemy ROS2 Course Certificate](https://www.udemy.com/certificate/UC-fedeef4c-dd3e-4971-a354-3a652d3a4bb9/)
@@ -99,6 +101,7 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 
 ## ⭐ Interests
 
+* Semiconductor Technology
 * Artificial Intelligence
 * Robotics
 * Control Engineering
