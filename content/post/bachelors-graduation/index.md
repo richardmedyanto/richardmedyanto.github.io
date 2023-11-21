@@ -9,7 +9,7 @@ categories:
 
 After 4 years of study, I finally graduated from Binus ASO School of Engineering! In this blog, I'll recap my journey.
 
-## Recap
+## Study Recap
 
 In my first year, I got to know new friends and studied the fundamentals of programming, physics, mechanical and electrical design. A project I did in my first year is the [C language financial recording app](/p/finance-record-c).
 
@@ -19,7 +19,9 @@ In my third year, I joined a [hydroponics IoT project](/p/depok-iot-hydroponics)
 
 In my final year, I interned at [Baran Energy](/p/baran-internship) and worked at [Daun Pintar](/p/daun-pintar). I also finished my [thesis about heliostat](/p/heliostat) and went to Fukuoka, Japan for [Summer Course](/p/summer-course-23). After coming back, my thesis project was presented in [ICEEI 2023](/p/iceei-2023).
 
-Huge thanks to all the lecturers, especially to Mr. Sofyan for allowing me to be his assistant in teaching Digital Systems, Mr. Zacky for allowing me to join the Depok IoT hydroponics project, Mr. Surya for being my supervisor in internship and final project, Mrs. Winda for always helping me in projects and consultations, and all other lecturers that taught me academically and in life. I'm grateful for my longtime collaborators: Deaven Rivaldi, Felix Wiguna, and Nicholas Sanjaya (whom I interned, worked, and developed my final project with) for sticking with me and helping me improve and be better. Thanks to the companies that gave me the opportunity to intern and work, allowing me to have experience and insights on the industry. Finally, thanks to BINUS ASO for giving me a place to study these past 4 years. These moments will hold a special place in my heart as I move forward in life.
+## Words of Gratitude
+
+Huge thanks to all the lecturers, especially to Mr. Sofyan for allowing me to be his assistant in teaching Digital Systems, Mr. Zacky for allowing me to join the Depok IoT hydroponics project, Mr. Surya for being my supervisor in internship and final project, Mrs. Winda for always helping me in projects and consultations, and all other lecturers that taught me academically and in life. I'm grateful for my longtime collaborators: Deaven Rivaldi, Felix Wiguna, and Nicholas Sanjaya (whom I interned, worked, and developed my final project with) for sticking with me and helping me improve and be better. Thanks to the companies that gave me the opportunity to intern and work, allowing me to have experience and insights on the industry. Thanks to BINUS ASO for giving me a place to study these past 4 years. Finally, thanks to my parents for always supporting me throughout this journey. All of these will hold a special place in my heart as I move forward in life.
 
 ## Graduation
 
