@@ -19,12 +19,20 @@ Our proposed solution is using a distance sensor that automatically reduces the 
 
 ## Prototype
 
-For the prototype, we used Arduino Uno, 2 IR Distance Sensors for both rear and front side of the car, DC motor, L298N H Bridge and some rechargeable batteries.
+For the prototype, we used Arduino Uno, 2 IR Distance Sensors for both rear and front side of the car, DC motor, L298N H-Bridge and rechargeable batteries.
 
-The prototype:
+PID control is used for the movement of the car prototype. The optimized PID coefficients are obtained from experiments. Digital signal from sensors are filtered using FIR filter designed with Hamming window method and the resulting signal was analyzed with Fast Fourier Transform (FFT).
+
+![System block diagram](acs.png)
+
+![Filtering result](dsp.png)
+
+Here is the prototype:
 
 {{< youtube jkHZy50IedA >}}
 
-Demonstration: 
+And here is the demonstration: 
 
 {{< youtube ViILeSpAEmI >}}
+
+The presentation slides for this project can be found [here](https://drive.google.com/file/d/1529pCAZztNKZ6Sh6hqMawIYgnN5aZJWL/view).

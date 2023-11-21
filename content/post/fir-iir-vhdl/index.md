@@ -33,7 +33,7 @@ We can take advantage of the clock rate, which is much higher than the shift rat
 
 ![Multiply-accumulate approach](multiply-accumulate.png)
 
-The final result is VHDL programs that implement the digital design of FIR filter and IIR filter based on the cascaded second-order sections form, which is optimized to use less resource. The VHDL files of the implementation can be inspected on [Github](https://github.com/richardmedyanto/DigitalSystem).
+The final result is VHDL programs that implement the digital design of FIR filter and IIR filter based on the cascaded second-order sections form, which is optimized to use less resource. The gain coefficients for the filters can be obtained using MATLAB Filter Design and turned to binary numbers to fit the desired specifications. The VHDL files of the implementation can be inspected on [Github](https://github.com/richardmedyanto/DigitalSystem).
 
 ## Conclusion
 

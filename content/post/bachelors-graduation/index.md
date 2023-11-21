@@ -1,6 +1,6 @@
 ---
 title: "Graduated!"
-description: "Graduated as Bachelor of Science from Binus University."
+description: "Graduated with a Bachelor of Science from Binus University."
 slug: "bachelors-graduation"
 date: 2023-11-21 00:00:00+0000
 categories:
