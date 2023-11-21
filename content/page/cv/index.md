@@ -35,6 +35,12 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 * Assisted in research and internal testing.
 * [Blog](/p/baran-internship)
 
+### Lecturer Assistant, Digital Systems Course, BINUS ASO School of Engineering, Sep 2021 – Jan 2022
+
+* Taught digital systems to 70 underclassmen and assisted with their projects under supervision of Ir. Sofyan, S.Kom., M.Eng. 
+* Created FIR and optimized IIR implementation in VHDL, documented in this [blog](/p/fir-iir-vhdl).
+
+
 ## 💻 Selected Projects
 
 ### Automatic Heliostat Directing System Based On Microcontroller ESP32
@@ -43,31 +49,32 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 * Technologies Used: ESP32, Arduino
 * [Blog](/p/heliostat)
 
+### FIR and IIR Implementation in VHDL
+
+* Description: A FIR and optimized IIR digital system design, finished as a Digital System course lecturer assistant.
+* Technologies Used: Digital systems design, VHDL
+* [Blog](/p/fir-iir-vhdl)
+* [Repo](https://github.com/richardmedyanto/DigitalSystem)
+
 ### Hydroponics IoT Solution
 
-* Description: A collaboration project between Binus ASO and Depok Government. An IoT hydroponics system for Depok hydroponics farmers.
+* Description: A collaboration project between Binus ASO and Depok City Regional Government. An IoT hydroponics system for Depok hydroponics farmers.
 * Technologies Used: ESP32, Arduino, ThingsBoard
+* [Blog](/p/depok-iot-hydroponics)
 
 ### Language Flashcard with Python
 
 * Description: A project I learned to make in a [Python online course](https://www.udemy.com/course/100-days-of-code/). I modified the provided code to add Chinese and Japanese flashcards.
 * Technologies Used: Python
 * [Blog](/p/flashcard-python)
-* [GitHub](https://github.com/richardmedyanto/language-flashcard)
-
-### FIR and IIR Implementation in VHDL
-
-* Description: A FIR and IIR digital system design, finished as a Digital System course lecturer assistant.
-* Technologies Used: Digital System, VHDL
-* [Blog](/p/fir-iir-vhdl)
-* [GitHub](https://github.com/richardmedyanto/DigitalSystem)
+* [Repo](https://github.com/richardmedyanto/language-flashcard)
 
 ### Simple Financial Recording App in C Language
 
 * Description: A CLI-based simple financial recording app, made for Algorithm and Programming Fundamentals course.
 * Technologies used: C language
 * [Blog](/p/finance-record-c)
-* [GitHub](https://github.com/richardmedyanto/AAPF)
+* [Repo](https://github.com/richardmedyanto/AAPF)
 
 ### Analog Car Door Impact Prevention System
 * Description: An analog system that uses an infrared sensor to detect obstacles and sounds alarm if an object is near. 
@@ -79,8 +86,8 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 
 ## 🎓 Education
 
-* Bachelor of Engineering (Sarjana Teknik, S.T.), Automotive and Robotics Engineering Program, BINUS ASO School of Engineering, 2019-2023
-* High School, SMA St. Louis 1 Surabaya, 2016-2019
+* Bachelor of Science (Sarjana Teknik, S.T.), Automotive and Robotics Engineering Program, BINUS ASO School of Engineering, 2019-2023. Graduated with CGPA of 3.89/4.00. 
+* High School, SMA St. Louis 1 Surabaya, 2016-2019. Graduated with average of 91/100 in School Exam, a full mark in physics National Exam and 93/100 average on all subjects in National Exam.
 
 
 ## 🧰 Skills
@@ -102,6 +109,7 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 ## ⭐ Interests
 
 * Semiconductor Technology
+* Electrical Engineering
 * Artificial Intelligence
 * Robotics
 * Control Engineering
