@@ -13,7 +13,7 @@ categories:
 
 Solar power is a source of renewable energy that is usually converted into electricity using photovoltaics (solar panels). The low efficiency of solar panel calls for the development of other alternatives, such as heliostats.
 
-Heliostat is a device that reflects sunlight to a boiler in concentrated solar power systems to generate electricity. However, the high investment cost is the highest barrier for its development.
+Heliostat is a device that reflects sunlight to a boiler in concentrated solar power (CSP) systems to generate electricity. However, the high investment cost is the highest barrier for its development.
 
 This research focuses on the development of a heliostat that keeps the reflection of the sunlight on a target throughout the day.
 
@@ -31,9 +31,9 @@ The mirror should be positioned between the sun and the target. The system can t
 
 The heliostat require an accelerometer and gyroscope sensor as well as a magnetometer sensor to detect the orientation of the mirror, which can be moved using servo motors.
 
-This video I created in Desmos shows the desired behavior of the final product.
+This animation I created in Desmos shows the desired behavior of the final product. The red line is the mirror, the yellow line is the sunlight, and the green line is the reflected sunlight.
 
-{{< video src="/videos/desmos-heliostat.mp4" type="video/mp4" preload="auto" >}}
+{{< youtube W6gKNx95SNQ >}}
 
 ## Prototype
 
@@ -41,13 +41,13 @@ A PCB was designed for the electrical components needed by the device.
 
 ![The PCB designed in KiCad](pcb-design.png) ![Printed version](pcb-result.png)
 
-Then, everything was put together inside a case, as seen in the picture below.
+Then, the components were assembled and put together inside a case, as seen below.
 
-![The heliostat](heliostat.png)
+![The assembled components on the PCB](assembled-pcb.jpeg) ![The heliostat](heliostat.png)
 
 ## Results
 
-We did a test to determine the performance of the heliostat in keeping the sunlight reflection on the target, as well as its heating effects on the target. Here's a demonstration video of the heliostat. Please feel free to turn on the caption.
+We did a test to determine its performance in keeping the sunlight reflection on the target, as well as its heating effects on the target. Here's a demonstration video of the heliostat. Please feel free to turn on the caption.
 
 {{< youtube LS8yblDopR0 >}}
 
