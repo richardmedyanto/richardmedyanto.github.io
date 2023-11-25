@@ -17,31 +17,7 @@ Hitting obstacles like walls, people, or another vehicle in the parking lot is s
 ## Circuit Design
 ![Picture: Circuit Design](schematic_consys.jpg "Circuit Design")
 
-### Components Used
-- 9V battery
-- On/off Switch
-- SHARP GP2Y0A21YK0F analog infrared sensor
-- Resistors:
-    - 2x 10k potentiometers
-    - 2x 1kΩ
-    - 1x 4.7kΩ
-    - 1x 10kΩ
-- Capacitors:
-    - 1x 10 nF
-    - 3x 10 uF
-    - 1x 33 uF
-- IC:
-    - 2x LM741
-    - 1x LM555
-    - 1x 7805 Voltage Regulator
-- 1x 5V relay
-- 1x 1N4001 diode
-- Buzzer
-
-
 ## How It Works
-
-*Warning: getting technical*
 
 **TL;DR**: The distance detected by the IR sensor is compared with 2 fixed distances. The closer the distance, the faster the alarm beeps.
 
