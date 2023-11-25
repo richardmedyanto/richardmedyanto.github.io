@@ -23,9 +23,17 @@ Since this was a class project, we split into groups and divided tasks to make m
 4. Combine the modules into one source code.
 5. Test the code in the prototype.
 
+## Module
+
+This project was done by working closely with the threhsholding group and the motor control & speed measurement group.
+
+![The design created by my group](blocks.png)
+
+The input from the thresholding group is the position of light source (10 bits of light size and position). If there is no light, the nolightcounter.vhd block is going to tell the robot to rotate 360 degrees before stopping. Otherwise, the size and position input are then used by the control block (Ctrl.vhd) to decide if the robot should go right, left, forward or backward. Then the left and right motor goal speeds are compared with the actual motor speeds by the error block (ERROR.vhd) to decide the required motor actions. The S2US.vhd and the US2S.vhd blocks are used to change signed values to unsigned and vice versa. They are connected to the motor control & speed measurement group which provide the actual motor speeds.
+
 ## Prototype
 
-![Picture: Prototype of the robot](robot.png "Prototype of the robot")
+![Prototype of the robot](robot.png "Prototype of the robot")
 Note: there was a problem with the hardware side of the prototype, and since it was in the pandemic, we didn't get enough time to gather and finish the whole project.
 
 ## Contribution
