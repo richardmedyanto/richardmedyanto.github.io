@@ -7,7 +7,7 @@ categories:
     - projects
 ---
 
->This project was the capstone project for my undergraduate study. The research is documented in a paper and was presented in [ICEEI 2023](https://stei.itb.ac.id/iceei2023/).
+>This project was the thesis project for my undergraduate study. The research was presented in [ICEEI 2023](https://stei.itb.ac.id/iceei2023/) and a paper was published with DOI:[10.1109/ICEEI59426.2023.10346650](https://doi.org/10.1109/ICEEI59426.2023.10346650).
 
 ## Background
 
