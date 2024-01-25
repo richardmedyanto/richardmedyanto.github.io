@@ -12,9 +12,13 @@ comments: false
 
 ## 🧑 Profile
 
-My name is Richard Medyanto, an engineer with a passion for everything to do with technology. I have experimented with the various fields technology could transform, ranging from automotive and green energy to agriculture, as seen in my multiple past projects. In my free time, I like to make coffee and learn about new things.
+My name is Richard Medyanto, a passionate and adaptable engineer who graduated from BINUS ASO School of Engineering, Indonesia with excellent designing and problem-solving skills. I am experienced in the development of embedded systems and have done multiple projects researching the impact of technology on various fields. I’m always eager to be challenged with new and exciting problems while learning new skills in solving them.
 
 ## 💼 Work Experience
+
+### Assistant Technical Engineer, PT Graha Securindo Pratama, Nov 2023 - Present
+* I work on system integration with various customers for solutions including (but not limited to) gas leak and temperature detection.
+* My responsibilities include integration, customer training and field commissioning of thermal cameras.
 
 ### Intern, FA Support (ＦＡサポート), Aug 2023
 
@@ -45,8 +49,9 @@ My name is Richard Medyanto, an engineer with a passion for everything to do wit
 
 ### Automatic Heliostat Directing System Based On Microcontroller ESP32
 
-* Description: A heliostat prototype that keeps the reflection of sunlight on a fixed target with a mirror. Made for my undergraduate study capstone project. 
+* Description: An automatic heliostat system that keeps the reflection of sunlight on a fixed target with a mirror.
 * Technologies Used: ESP32, Arduino
+* [Publication URL](https://doi.org/10.1109/ICEEI59426.2023.10346650)
 * [Blog](/p/heliostat)
 
 ### FIR and IIR Implementation in VHDL

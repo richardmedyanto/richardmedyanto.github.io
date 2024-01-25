@@ -9,16 +9,16 @@ categories:
 
 ## About Daun Pintar
 
-Daun Pintar is a hydroponics automation system startup founded in 2022. Daun Pintar has released 2 lines of products: the H series for small scale hydroponics and the G series for larger scale hydroponics.
+Daun Pintar is a hydroponics automation system startup founded in 2022. Daun Pintar has released 2 lines of products: the H-series for small scale hydroponics and the G-series for larger scale hydroponics.
 
 ## My Experience
 
-Daun Pintar was found by the Baran Farm head of division, Mr. Iqbal. After [my internship at Baran Energy](/p/baran-internship), Mr. Iqbal offered me, Nicholas and Mr. Agung a job at this company. With our combined experience, we created a more sophisticated hydroponics automation system, along with several real-life testings. I developed a more sophisticated control system for the nutrition control and added some other features while keeping the ease of use in mind with the addition of mobile app integration.
+Mr. Iqbal, the head of division at Baran Farm, founded Daun Pintar. Following [my internship at Baran Energy](/p/baran-internship), Mr. Iqbal extended a job offer to me, Nicholas, and Mr. Agung to join Daun Pintar. Leveraging our collective expertise, we devised a new, advanced and robust hydroponics automation system. I created an updated nutrition control system, incorporating additional features while prioritizing user-friendly design, and integrating it with a mobile application.
 
 ![A selfie in the office](daun-pintar.jpg)
 
-Some of the memorable things during my time at this company were testing at Agro Edu Wisata Ragunan, a government-owned agricultural education park and the sale of products to a farm in Kalimantan, where we received feedback from people outside of the company. The harsh real-life environment condition during testing forced us to rethink our approach to the problem, adding more insights for development.
+A few noteworthy experiences during my tenure at this company included conducting tests at Agro Edu Wisata Ragunan, a government-owned agricultural education park, and making sales to a farm in Kalimantan. These interactions provided valuable feedback from individuals external to our organization. The challenging real-world conditions we encountered during testing prompted us to reassess our problem-solving approach, offering valuable insights for further development.
 
 ## Afterwords
 
-I learned many valuable lessons in this company, such as the importance of discussion, careful and thoughtful approach to a problem and responsibility to the user. In the end, my tenure at Daun Pintar was cut short due to my responsibilities as a student. Nevertheless, I feel accomplished for my time at this company and am grateful for the whole experience.
+During my time at Daun Pintar, I gained numerous invaluable lessons, including the significance of open discussion, meticulous problem-solving, and the user's responsibility. Unfortunately, my tenure was shortened due to academic commitments. Nonetheless, I feel a sense of achievement and gratitude for the enriching experience gained during my time with the company.

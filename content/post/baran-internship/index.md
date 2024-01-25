@@ -11,18 +11,22 @@ categories:
 
 ## About Baran Energy
 
-Baran Energy is an Indonesian startup that focuses on developing energy storage systems, electric motorcycles and an agriculture division named Baran Farm. The Baran Energy office is located in Foresta Business Loft, BSD City.
+Baran Energy (PT. Aldebaran Rekayasa Cipta) is an Indonesian startup that focuses on developing energy storage systems, electric motorcycles and an agriculture division named Baran Farm. The company office is located in Foresta Business Loft, BSD City.
 
 ## My Experience
 
-Baran Energy is the first internship I have done in my life. At first I was nervous to start working at the company, but the supportive environment and the warmth of the team quickly put my apprehensions to rest. I had the opportunity to work in Baran Farm division alongside Nicholas Sanjaya, a colleague from university, and collaborated with the backend-frontend team and the agriculture specialist, Mr. Agung.
+Baran Energy marked my inaugural internship experience, initially met with nerves as I embarked on this new chapter. However, the nurturing atmosphere and camaraderie within the team swiftly alleviated any apprehensions. I was fortunate to be assigned to the Baran Farm division, working alongside Nicholas Sanjaya, a fellow university peer. Our collaboration extended to engaging with both the backend-frontend team and the agricultural specialist, Mr. Agung.
 
 ![One of the many research performed in the internship. From left to right: Mr. Agung, Nicholas and me](baran-internship.jpg)
 
-I was tasked with a project to make a hydroponics automation system. The created system should control the nutrition of the plants and add nutrition and water as needed by the users' requirements. After several initial research concerning the requirements and constraints with Mr. Agung, I designed the software, while my partner Nicholas designed the hardware for the system, after which we created the prototype and tested it together with Mr. Agung. I received a lot of feedback for the system from my company supervisor, Mr. Natanael, head of division Mr. Iqbal and my university supervisor, Mr. Surya for which I am very grateful. 
+I was given the responsibility of developing a hydroponics automation system as part of a project. This system was designed to regulate plant nutrition and dispense nutrients and water based on user specifications. Collaborating with Mr. Agung, we conducted extensive research to understand the project requirements and limitations. Subsequently, I focused on designing the software while my colleague Nicholas tackled the hardware aspect. Together, we constructed a prototype and conducted testing under the guidance of Mr. Agung.
 
-While periodic testings were done to understand the stability and performance of the system, the end result of the system was tested with real plants planted in a hydroponic system, and the project was presented for the university internship assessment.
+I received invaluable feedback on the system from various sources including my company supervisor, Mr. Natanael, the head of division, Mr. Iqbal, and my university supervisor, Mr. Surya. I am immensely grateful for their guidance and support throughout this endeavor.
+
+Throughout the development process, we conducted regular tests to assess the stability and performance of the system. The ultimate evaluation of the system's effectiveness was conducted using real plants within a hydroponic setup. The project was then presented as part of the university internship assessment, showcasing the practical application and outcomes of our work.
 
 ## Afterwords
 
-I am deeply grateful to Baran Energy, both the company and the people, for my internship experience with them as it allowed me to collaborate and participate in the development of the hydroponics automation system. This experience was also a great opportunity to broaden my knowledge of the world around me, since the out-of-campus nature of the internship allowed me to discuss (and sometimes debate) problems with other people outside of my comfort zone. I finished this internship with a sense of accomplishment, a network of amazing professionals, and a strong foundation for my future endeavors. The lessons I've learned and the memories I've made during this internship will undoubtedly influence my career path positively.
+I am profoundly thankful to Baran Energy, both its company and its people, for the invaluable internship experience I gained while collaborating on the development of the hydroponics automation system. This opportunity not only allowed me to contribute to a meaningful project but also expanded my understanding of the world beyond the confines of campus. Engaging in discussions and occasional debates with individuals outside my usual circle challenged me to think critically and approach problems from diverse perspectives.
+
+Completing this internship fills me with a sense of achievement, leaving me with a network of exceptional professionals and a solid foundation for my future endeavors. The lessons learned and the memories created during this internship will undoubtedly shape my career path in a positive direction.

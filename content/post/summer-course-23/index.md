@@ -10,9 +10,11 @@ categories:
 
 ## Summer Course
 
-As a Binus ASO student, we had the opportunity to take part in summer course in Fukuoka, Japan. For me, it was in the summer of 2023. This event had been highly anticipated ever since the beginning of the first  semester in campus. It was awesome.
+As a Binus ASO student, I had the incredible opportunity to participate in a summer course in Fukuoka, Japan, during the summer of 2023. This event had been eagerly anticipated since the beginning of the semester on campus, and it truly lived up to expectations.
 
-The event was made possible by the collaboration between Binus University (Indonesia) and ASO College (Japan), and I was blown away by the quality of the summer course curriculum. We had hands-on lessons about car transmission, car engines, airbags and safety devices, mechanical design and manufacturing. The off-campus experience were also wonderful, with trips to museums, shrines, and a factory visit. Additionally, there were classes about Japanese manners and the Japanese work experience, which provided more insight about life in Japan. 
+The summer course was made possible through a collaboration between Binus University in Indonesia and ASO College in Japan, and I was thoroughly impressed by the quality of the curriculum. We engaged in hands-on lessons covering topics such as car transmission, car engines, airbags and safety devices, as well as mechanical design and manufacturing.
+
+The off-campus experiences were equally delightful, including visits to museums, shrines, and a factory tour. Moreover, classes focusing on Japanese manners and the Japanese work experience offered valuable insights into life in Japan, enhancing our overall understanding and appreciation of the culture.
 
 ![A visit to Kokura Castle](summer-course.jpg)
 
