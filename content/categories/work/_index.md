@@ -1,6 +1,6 @@
 ---
 title: Work
-description: My work experiences
+description: My work experiences.
 image:
 
 # Badge style

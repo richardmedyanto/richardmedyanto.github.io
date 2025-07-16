@@ -2,12 +2,18 @@
 baseurl = "https://richardmedyanto.github.io"
 languageCode = "en-us"
 paginate = 5
-title = "Richard's Blog"
+title = "Richard Medyanto's Blog"
+enableRobotsTXT = true
+
+[params]
+  description = "Richard Medyanto's personal website: resume, projects, research, and more."
+  keywords = ["Richard Medyanto", "EECS", "semiconductors", "portfolio"]
+
 
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "Richard's Blog"
+title = "Richard Medyanto's Blog"
 weight = 1
 
 # Theme i18n support
@@ -21,4 +27,9 @@ hasCJKLanguage = false
 # Change it to your Disqus shortname before using
 disqusShortname = "richardmedyanto"
 
-lastmod = "2025-07-13T19:00:00"
+lastmod = "2025-07-16T19:00:00"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

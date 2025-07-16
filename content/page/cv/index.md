@@ -1,13 +1,16 @@
 ---
-title: "Curriculum Vitae"
-slug: "curriculum-vitae"
+title: Curriculum Vitae
+slug: curriculum-vitae
 menu:
-    main: 
+    main:
         weight: 2
         params:
             icon: school
-
 comments: false
+date: 2025-07-16T15:54:20.532Z
+description: Explore my curriculum vitae.
+keywords:
+    - Curriculum Vitae
 ---
 
 ## 🧑 Profile
@@ -21,7 +24,7 @@ Graduate Institute of Photonics and Optoelectronics, College of Electrical Engin
 * GPA: 4.24/4.30, ranked 7th out of 114 students in the fall semester of 2024.
 * Research assistant at the [Integrated Optoelectronic Devices (IOED) Lab](https://cc.ee.ntu.edu.tw/~ioedlab/) under Professor Chao-Hsin Wu (吳肇欣教授)
 * Research interests include heterojunction bipolar transistor (HBT) and light-emitting transistor (LET). Engaged in device processing and characterization, as well as simulation and design.
-* Executive Committe of [IEEE NTU Student Branch](https://sites.google.com/view/ieeentusb/) as Webmaster. Responsibilities include website and social media management and working with other officers in organizing activities such as seminars.
+* Executive Committee of [IEEE NTU Student Branch](https://sites.google.com/view/ieeentusb/) as Webmaster. Responsibilities include website and social media management and working with other officers in organizing activities such as seminars.
 
 ### Bachelor of Science: BINUS ASO School of Engineering, Indonesia
 Automotive & Robotics Engineering Program, 2019-2023
@@ -64,7 +67,7 @@ I taught Digital Systems course to 70 underclassmen and assisted with their proj
 ### Radio-Frequency Heterojunction Bipolar Transistor (RF HBT)
 * Part of the Taiwan National Science and Technology Council (NSTC) project on compound semiconductors.
 * Working on the development of ultra-high-speed InP-based HBTs for 6G applications.
-* Tasks include device processing, experimental design, and RF measurement
+* Tasks include device processing, experimental design, DC and RF measurement.
 
 ### Automatic Heliostat Directing System Based On Microcontroller ESP32
 

@@ -1,11 +1,8 @@
 ---
 title: Projects
-description: My past projects
-image:
-
-# Badge style
+description: Explore my past projects.
+image: null
 style:
     background: "#2a9d8f"
     color: "#fff"
 ---
-
