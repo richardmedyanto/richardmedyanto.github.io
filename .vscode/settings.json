@@ -1,0 +1,96 @@
+{
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.content.pageFolders": [
+        {
+            "path": "[[workspace]]/content",
+            "title": "content"
+        },
+        {
+            "path": "[[workspace]]/content/categories/others"
+        },
+        {
+            "path": "[[workspace]]/content/post/baran-internship"
+        },
+        {
+            "path": "[[workspace]]/content/categories/projects"
+        },
+        {
+            "path": "[[workspace]]/content/post/bachelors-graduation"
+        },
+        {
+            "path": "[[workspace]]/content/categories/work"
+        },
+        {
+            "path": "[[workspace]]/content/post/car-cabin-exhaust"
+        },
+        {
+            "path": "[[workspace]]/content/page/search"
+        },
+        {
+            "path": "[[workspace]]/content/page/archives"
+        },
+        {
+            "path": "[[workspace]]/content/post/crash-prevention"
+        },
+        {
+            "path": "[[workspace]]/content/post/summer-course-23"
+        },
+        {
+            "path": "[[workspace]]/content/page/cv"
+        },
+        {
+            "path": "[[workspace]]/content/post/smart-car"
+        },
+        {
+            "path": "[[workspace]]/content/post/medical-record-db"
+        },
+        {
+            "path": "[[workspace]]/content/post/motorized-gate"
+        },
+        {
+            "title": "light-seeking-robot",
+            "path": "[[workspace]]/content/post/light-seeking-robot"
+        },
+        {
+            "title": "language-flashcard",
+            "path": "[[workspace]]/content/post/language-flashcard"
+        },
+        {
+            "title": "inp-hbt",
+            "path": "[[workspace]]/content/post/inp-hbt"
+        },
+        {
+            "title": "impact-prevention",
+            "path": "[[workspace]]/content/post/impact-prevention"
+        },
+        {
+            "title": "iceei-2023",
+            "path": "[[workspace]]/content/post/iceei-2023"
+        },
+        {
+            "title": "fir-iir-vhdl",
+            "path": "[[workspace]]/content/post/fir-iir-vhdl"
+        },
+        {
+            "title": "heliostat",
+            "path": "[[workspace]]/content/post/heliostat"
+        },
+        {
+            "title": "finance-record-c",
+            "path": "[[workspace]]/content/post/finance-record-c"
+        },
+        {
+            "title": "daun-pintar",
+            "path": "[[workspace]]/content/post/daun-pintar"
+        },
+        {
+            "title": "depok-iot-hydroponics",
+            "path": "[[workspace]]/content/post/depok-iot-hydroponics"
+        }
+    ],
+    "frontMatter.git.enabled": true,
+    "[markdown]": {
+    }
+}

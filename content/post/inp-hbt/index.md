@@ -1,11 +1,10 @@
 ---
-title: "InP HBT"
-description: "Fabrication of InP-based HBT."
+title: InP HBT
+description: Fabrication of InP-based HBT.
 slug: inp-hbt
-date: 2025-07-13 00:00:00+0000
+date: 2025-07-16T15:46:19.509Z
 categories:
     - projects
-
 ---
 
 > This project was made in IOED Lab, NTU

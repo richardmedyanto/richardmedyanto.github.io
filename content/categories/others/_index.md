@@ -1,6 +1,6 @@
 ---
 title: Others
-description: Other experiences
+description: Other experiences.
 image:
 
 # Badge style
