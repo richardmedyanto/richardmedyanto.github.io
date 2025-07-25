@@ -11,7 +11,7 @@ categories:
 
 ## Background
 
-**Heterojunction bipolar transistors (HBTs)** are a type of transistor that use different materials for different regions, instead of using one single material such as silicon. They use both electrons and holes to conduct current, as compared to FETs that use only one of them. The advantages of this heterojunction design, when compared to single-material-based transistors such as BJTs, are higher current gain, faster switching speed, higher power efficiency, and better design flexibility. These advantages make them the perfect devices applicable to high-frequency amplifiers and communication. One example application of terahertz InP HBTs is in generating or amplifying terahertz waves, which could help realize imaging systems that can see through certain materials.
+**Heterojunction bipolar transistors (HBTs)** are a type of transistor that use different materials for different regions, instead of using one single material such as silicon. They use both electrons and holes to conduct current, as compared to FETs that use only one of them. The advantages of this heterojunction design, when compared to single-material-based transistors such as BJTs, are higher current gain, faster switching speed, higher power efficiency, and better design flexibility. These advantages make them the perfect devices applicable to high-frequency amplifiers and communication. One example application of terahertz InP HBTs is in generating or amplifying terahertz waves, with potential implementation for ultra-high-speed (> 100 Gb/s) wireless communication for future 6G networks.
 
 
 ## Devices
