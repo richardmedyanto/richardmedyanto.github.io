@@ -1,2 +1,32 @@
+proxy   = "off"
+noProxy = "*"
+
+# Mount the same content directory for all three languages so every post
+# is served at /zh-tw/p/... and /zh-cn/p/... without needing translated files.
+[[mounts]]
+source = "content"
+target = "content"
+
+# Keep Hugo's other default directories mounted (required when overriding mounts).
+[[mounts]]
+source = "static"
+target = "static"
+
+[[mounts]]
+source = "layouts"
+target = "layouts"
+
+[[mounts]]
+source = "assets"
+target = "assets"
+
+[[mounts]]
+source = "i18n"
+target = "i18n"
+
+[[mounts]]
+source = "archetypes"
+target = "archetypes"
+
 [[imports]]
 path = "github.com/CaiJimmy/hugo-theme-stack/v3"

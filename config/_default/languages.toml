@@ -1,7 +1,23 @@
-# Uncomment this file to enable multilanguage site support
-
 [en]
 languageName = "English"
 languagedirection = "ltr"
 title = "Richard Medyanto's Blog"
 weight = 1
+
+[zh-tw]
+languageName = "繁體中文"
+languagedirection = "ltr"
+title = "Richard Medyanto 的部落格"
+weight = 2
+
+[zh-tw.params.sidebar]
+subtitle = "嗨，我是 Richard — 一個熱愛科技與創新的工程師。這個部落格記錄了我的專案、技術探索與實作心得！"
+
+[zh-cn]
+languageName = "简体中文"
+languagedirection = "ltr"
+title = "Richard Medyanto 的博客"
+weight = 3
+
+[zh-cn.params.sidebar]
+subtitle = "嗨，我是 Richard — 一个热爱科技与创新的工程师。这个博客记录了我的项目、技术探索和实践心得！"
