@@ -1,0 +1,101 @@
+/* =====================================================
+   Custom styles — richardmedyanto.github.io
+   ===================================================== */
+
+/* ── Custom heading colour variables ── */
+:root {
+    --h3-color:  #5c7a8c;
+    --h3-border: #8aafc0;
+    --h3-bg:     rgba(92, 122, 140, 0.05);
+    --h2-bg:     rgba(52, 73, 94, 0.055);
+}
+
+[data-scheme="dark"] {
+    --h3-color:  #96c0d4;
+    --h3-border: #6898ae;
+    --h3-bg:     rgba(150, 192, 212, 0.07);
+    --h2-bg:     rgba(236, 240, 241, 0.07);
+}
+
+/* ── H2: accent-coloured text + subtle full-width background band ── */
+.article-content h2 {
+    color: var(--accent-color);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    background-color: var(--h2-bg);
+    border-radius: 0 4px 4px 0;
+    padding-block: 5px 4px;
+}
+
+/* ── H3: muted steel-teal + lighter background ── */
+.article-content h3 {
+    color: var(--h3-color);
+    border-inline-start-color: var(--h3-border);
+    font-size: 1.85rem;
+    font-weight: 600;
+    background-color: var(--h3-bg);
+    border-radius: 0 3px 3px 0;
+    padding-block: 3px;
+}
+
+/* ── TOC: show section titles only, hide subsections ── */
+.widget--toc #TableOfContents > ul > li > a,
+.widget--toc #TableOfContents > ol > li > a {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--card-text-color-main);
+}
+
+/* Hide all nested lists (### and deeper) from the TOC */
+.widget--toc #TableOfContents li > ul,
+.widget--toc #TableOfContents li > ol {
+    display: none;
+}
+
+/* ── Article cards: full-card clickable + pronounced hover ── */
+.article-list:not(.article-list--compact) article {
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.article-list:not(.article-list--compact) article:hover {
+    box-shadow:
+        0 18px 45px rgba(0, 0, 0, 0.13),
+        0  6px 16px rgba(0, 0, 0, 0.09),
+        0  0   2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+[data-scheme="dark"] .article-list:not(.article-list--compact) article:hover {
+    box-shadow:
+        0 18px 45px rgba(0, 0, 0, 0.45),
+        0  6px 16px rgba(0, 0, 0, 0.32),
+        0  0   2px rgba(0, 0, 0, 0.20);
+}
+
+/* Extend title link ::after to cover the entire card */
+.article-list:not(.article-list--compact) .article-title a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+/* Keep interactive elements above the overlay */
+.article-list:not(.article-list--compact) .article-image a,
+.article-list:not(.article-list--compact) .article-category a,
+.article-list:not(.article-list--compact) .article-time a,
+.article-list:not(.article-list--compact) .article-tags a {
+    position: relative;
+    z-index: 1;
+}
+
+/* ── Sidebar description: improved readability ── */
+.sidebar header .site-description {
+    line-height: 1.9;
+    font-size: 1.38rem;
+    letter-spacing: 0.01em;
+    word-spacing: 0.04em;
+    opacity: 0.9;
+}

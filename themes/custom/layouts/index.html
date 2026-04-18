@@ -1,0 +1,23 @@
+{{- /* Homepage: list of posts */ -}}
+{{ define "main" }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") }}
+  {{ range $paginator.Pages }}
+    <a class="post" href="{{ .RelPermalink }}">
+      {{ with .Params.categories }}<span class="cat">{{ index . 0 }}</span>{{ end }}
+      <h2>{{ .Title }}</h2>
+      {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+      <div class="meta">
+        <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+        <span>{{ .ReadingTime }} minute read</span>
+      </div>
+    </a>
+  {{ end }}
+
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">← {{ i18n "prev" | default "Previous" }}</a>{{ end }}
+    <span>{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+    {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">{{ i18n "next" | default "Next" }} →</a>{{ end }}
+  </nav>
+  {{ end }}
+{{ end }}

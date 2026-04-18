@@ -1,0 +1,44 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "style",
+          "name": "style",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "background",
+              "name": "background",
+              "type": "string"
+            },
+            {
+              "title": "color",
+              "name": "color",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

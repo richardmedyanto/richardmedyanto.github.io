@@ -1,0 +1,59 @@
+<canvas id="shader-canvas" aria-hidden="true"></canvas>
+<style>
+  #shader-canvas {
+    position: fixed; inset: 0;
+    width: 100vw; height: 100vh;
+    z-index: -1;            /* behind all content */
+    pointer-events: none;   /* clicks still reach the page */
+    display: block;
+  }
+  /* Stack's main containers are opaque by default — make them translucent
+     so the shader shows through. Tweak blur/alpha to taste. */
+  .main .article-list--compact,
+  .main .article-list--tile,
+  .widget,
+  article.main-article {
+    background: rgba(255, 255, 255, 0.78) !important;
+    backdrop-filter: blur(14px) saturate(1.1);
+    -webkit-backdrop-filter: blur(14px) saturate(1.1);
+  }
+  [data-scheme="dark"] .main .article-list--compact,
+  [data-scheme="dark"] .main .article-list--tile,
+  [data-scheme="dark"] .widget,
+  [data-scheme="dark"] article.main-article {
+    background: rgba(18, 18, 22, 0.70) !important;
+  }
+</style>
+
+{{ $engine  := resources.Get "js/shaders/shader-engine.js"       | minify | fingerprint }}
+{{ $mesh    := resources.Get "js/shaders/mesh-gradient.glsl.js"  | minify | fingerprint }}
+{{ $chrome  := resources.Get "js/shaders/liquid-chrome.glsl.js"  | minify | fingerprint }}
+{{ $ambient := resources.Get "js/shaders/ambient-flow.glsl.js"   | minify | fingerprint }}
+<script src="{{ $engine.RelPermalink }}"  defer></script>
+<script src="{{ $mesh.RelPermalink }}"    defer></script>
+<script src="{{ $chrome.RelPermalink }}"  defer></script>
+<script src="{{ $ambient.RelPermalink }}" defer></script>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const canvas = document.getElementById('shader-canvas');
+    const SHADERS = {
+      mesh:    window.SHADER_MESH,
+      chrome:  window.SHADER_CHROME,
+      ambient: window.SHADER_AMBIENT,
+    };
+
+    // Stack stores its light/dark pref on <html data-scheme="...">
+    const themeNum = () =>
+      document.documentElement.getAttribute('data-scheme') === 'dark' ? 1 : 0;
+
+    const which     = localStorage.getItem('shader:which') || 'mesh';
+    const intensity = parseFloat(localStorage.getItem('shader:intensity') || '0.20');
+
+    const engine = new ShaderEngine(canvas, { intensity, theme: themeNum() });
+    if (SHADERS[which]) { engine.load(SHADERS[which]); engine.start(); }
+
+    new MutationObserver(() => engine.setTheme(themeNum()))
+      .observe(document.documentElement, { attributes: true, attributeFilter: ['data-scheme'] });
+  });
+</script>

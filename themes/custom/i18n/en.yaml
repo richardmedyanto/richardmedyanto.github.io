@@ -1,0 +1,38 @@
+- id: appearance
+  translation: "Appearance"
+- id: wallpaper
+  translation: "Wallpaper"
+- id: intensity
+  translation: "Intensity"
+- id: light
+  translation: "Light"
+- id: dark
+  translation: "Dark"
+- id: shader_mesh
+  translation: "Mesh gradient"
+- id: shader_ambient
+  translation: "Ambient"
+- id: shader_off
+  translation: "Off"
+- id: navigation
+  translation: "Navigation"
+- id: archives
+  translation: "Archives"
+- id: categories
+  translation: "Categories"
+- id: prev
+  translation: "Previous"
+- id: next
+  translation: "Next"
+- id: not_found
+  translation: "Page not found."
+- id: back_home
+  translation: "Back home"
+- id: nav_home
+  translation: "Home"
+- id: nav_cv
+  translation: "Curriculum Vitae"
+- id: nav_archives
+  translation: "Archives"
+- id: nav_search
+  translation: "Search"

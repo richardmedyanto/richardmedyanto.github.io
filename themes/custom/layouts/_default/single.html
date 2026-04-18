@@ -1,0 +1,23 @@
+{{- /* Single post page */ -}}
+{{ define "main" }}
+<article class="post post-detail">
+  {{ with .Params.categories }}<span class="cat">{{ index . 0 }}</span>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+  <div class="meta">
+    <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+    <span>{{ .ReadingTime }} minute read</span>
+  </div>
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Translations }}
+  <div class="translations">
+    {{ range . }}
+      <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}

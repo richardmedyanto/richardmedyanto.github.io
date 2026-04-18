@@ -1,0 +1,46 @@
+{{- /* Search page */ -}}
+{{ define "main" }}
+<div style="align-self:start;min-width:0;">
+  <div class="list-header" style="margin-bottom:16px;">
+    <h1>{{ .Title }}</h1>
+  </div>
+  <div class="search-box card" style="margin-bottom:16px;padding:14px 16px;height:52px;overflow:hidden;">
+    <input id="search-input" type="search" placeholder="{{ i18n `search_placeholder` | default `Search posts…` }}"
+      autofocus autocomplete="off"
+      style="width:100%;background:transparent;border:none;outline:none;font-size:15px;color:var(--text);display:block;height:24px;resize:none;">
+  </div>
+  <div id="search-results" style="display:grid;gap:18px;"></div>
+</div>
+
+<script>
+(async () => {
+  const input = document.getElementById('search-input');
+  const results = document.getElementById('search-results');
+  const res = await fetch('{{ .Site.BaseURL }}search/index.json');
+  const posts = await res.json();
+
+  function render(items) {
+    if (!items.length) {
+      results.innerHTML = '<p style="color:var(--text-soft);padding:8px 0;">No results found.</p>';
+      return;
+    }
+    results.innerHTML = items.map(p => `
+      <a class="post" href="${p.url}">
+        ${p.categories ? `<span class="cat">${p.categories[0]}</span>` : ''}
+        <h2>${p.title}</h2>
+        ${p.description ? `<p class="lede">${p.description}</p>` : ''}
+        <div class="meta"><span>${p.date}</span></div>
+      </a>`).join('');
+  }
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) { results.innerHTML = ''; return; }
+    const filtered = posts.filter(p =>
+      (p.title + ' ' + (p.description || '') + ' ' + (p.content || '')).toLowerCase().includes(q)
+    );
+    render(filtered);
+  });
+})();
+</script>
+{{ end }}

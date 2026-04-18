@@ -1,0 +1,76 @@
+baseURL: https://richardmedyanto.github.io/
+title: Richard Medyanto's Blog
+theme: custom
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+paginate: 5
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Richard Medyanto's Blog
+    params:
+      description: "Hi, I'm Richard — an engineer driven by a deep passion for technology and innovation. This blog is where I share my latest projects, technical insights, and hands-on experiences!"
+  zh-tw:
+    languageName: 繁體中文
+    weight: 2
+    title: Richard Medyanto 的部落格
+    params:
+      description: "嗨，我是 Richard — 一位對科技與創新充滿熱情的工程師。"
+  zh-cn:
+    languageName: 简体中文
+    weight: 3
+    title: Richard Medyanto 的博客
+    params:
+      description: "嗨，我是 Richard — 一位对科技与创新充满热情的工程师。"
+
+params:
+  author: Richard Medyanto
+  avatar: /img/avatar.jpg   # put your avatar at static/img/avatar.jpg
+  favicon: /img/avatar.jpg
+  socials:
+    - name: LinkedIn
+      url: https://linkedin.com/in/richardmedyanto
+      icon: brand-linkedin
+    - name: GitHub
+      url: https://github.com/richardmedyanto
+      icon: brand-github
+    - name: Email
+      url: mailto:richard1medyanto@gmail.com
+      icon: brand-email
+
+menu:
+  main:
+    - identifier: nav_home
+      name: Home
+      url: /
+      weight: 1
+      pre: home
+    - identifier: nav_cv
+      name: Curriculum Vitae
+      url: /curriculum-vitae/
+      weight: 2
+      pre: cv
+    - identifier: nav_archives
+      name: Archives
+      url: /archives/
+      weight: 3
+      pre: archives
+    - identifier: nav_search
+      name: Search
+      url: /search/
+      weight: 4
+      pre: search
+
+taxonomies:
+  category: categories
+  tag: tags
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    lineNos: false

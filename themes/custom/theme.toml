@@ -1,0 +1,10 @@
+name = "Shader"
+license = "MIT"
+description = "Minimal blog theme with interactive shader wallpaper."
+homepage = "https://github.com/richardmedyanto/richardmedyanto.github.io"
+tags = ["blog", "minimal", "shader", "dark", "multilingual"]
+features = ["dark mode", "shader wallpaper", "multilingual", "categories", "archives"]
+min_version = "0.112.0"
+
+[author]
+  name = "Richard Medyanto"

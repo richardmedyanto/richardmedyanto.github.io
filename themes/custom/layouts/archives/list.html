@@ -1,0 +1,19 @@
+{{- /* Archives — posts grouped by year, anchored by year id */ -}}
+{{ define "main" }}
+<div class="list-header">
+  <h1>{{ .Title }}</h1>
+</div>
+
+{{ $posts := where .Site.RegularPages "Section" "p" }}
+{{ range ($posts.GroupByDate "2006").ByKey.Reverse }}
+  <section class="archive-year" id="{{ .Key }}">
+    <h2 class="archive-year-heading">{{ .Key }}</h2>
+    {{ range .Pages }}
+      <a class="archive-entry" href="{{ .RelPermalink }}">
+        <span class="date">{{ .Date.Format "Jan 2" }}</span>
+        <span class="title">{{ .Title }}</span>
+      </a>
+    {{ end }}
+  </section>
+{{ end }}
+{{ end }}

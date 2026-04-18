@@ -1,0 +1,44 @@
+{{/* layouts/partials/head/schema.html */}}
+
+{{ if .IsHome }}
+<!-- Person Schema (homepage only) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Richard Medyanto",
+  "url": "https://richardmedyanto.github.io",
+  "sameAs": [
+    "https://github.com/richardmedyanto",
+    "https://www.linkedin.com/in/richardmedyanto"
+  ],
+  "jobTitle": "Master student at National Taiwan University",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "National Taiwan University"
+  }
+}
+</script>
+{{ else }}
+<!-- Breadcrumb Schema (for all other pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://richardmedyanto.github.io"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+{{ end }}

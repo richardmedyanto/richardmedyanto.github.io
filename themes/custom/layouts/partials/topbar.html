@@ -1,0 +1,19 @@
+{{- /* topbar.html — minimal bar with hamburger (mobile) + shader controls (desktop) */ -}}
+<div class="topbar" role="toolbar" aria-label="Site controls">
+  <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+  </button>
+  <a class="site-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+  <div class="spacer"></div>
+  <span class="label desktop-only">{{ i18n "wallpaper" | default "Wallpaper" }}</span>
+  <div class="seg desktop-only" id="shader-seg">
+    <button data-val="mesh" class="active">{{ i18n "shader_mesh" | default "Mesh gradient" }}</button>
+    <button data-val="ambient">{{ i18n "shader_ambient" | default "Ambient" }}</button>
+    <button data-val="off">{{ i18n "shader_off" | default "Off" }}</button>
+  </div>
+  <span class="label desktop-only">{{ i18n "intensity" | default "Intensity" }}</span>
+  <div class="slider-wrap desktop-only">
+    <input id="intensity" type="range" min="0" max="100" value="20" step="5" />
+    <span class="val" id="intensity-val">20</span>
+  </div>
+</div>

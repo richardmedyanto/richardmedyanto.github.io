@@ -1,0 +1,14 @@
+{{- /* head.html — styles + early theme restore */ -}}
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+
+{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . | relURL }}" />{{ end }}
+
+<script>
+  // Restore theme before paint to prevent flash
+  (function () {
+    var saved = localStorage.getItem('theme');
+    var t = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>

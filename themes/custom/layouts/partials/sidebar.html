@@ -1,0 +1,83 @@
+{{- /* sidebar.html — profile card, menu, archives, categories */ -}}
+{{ $currentLang := .Site.Language.Lang }}
+<aside class="sidebar">
+
+  {{/* Profile card */}}
+  <div class="card profile">
+    {{ with .Site.Params.avatar }}
+      <img class="avatar-img" src="{{ . | relURL }}" alt="{{ $.Site.Params.author | default $.Site.Title }}" />
+    {{ else }}
+      <div class="avatar">☕</div>
+    {{ end }}
+    <h2>{{ .Site.Title }}</h2>
+    {{ with .Site.Params.description }}<p>{{ . }}</p>{{ end }}
+
+    {{/* Social links */}}
+    {{ with .Site.Params.socials }}
+    <div class="socials">
+      {{ range . }}
+        <a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener" target="_blank">
+          {{ partial "icon.html" .icon }}
+        </a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Language toggle — only if site has multiple languages */}}
+    {{ if gt (len site.Languages) 1 }}
+    <div class="lang-toggle" role="group" aria-label="Language">
+      {{ range site.Languages }}
+        {{ $lang := . }}
+        {{ $isCurrent := eq $lang.Lang $currentLang }}
+        {{ $url := "" }}
+        {{ if $isCurrent }}
+          {{ $url = $.RelPermalink }}
+        {{ else }}
+          {{ with $.AllTranslations }}
+            {{ range . }}{{ if eq .Language.Lang $lang.Lang }}{{ $url = .RelPermalink }}{{ end }}{{ end }}
+          {{ end }}
+          {{ if not $url }}{{ $url = $lang.Params.baseURL | default (printf "/%s/" $lang.Lang) }}{{ end }}
+        {{ end }}
+        <a href="{{ $url }}" class="{{ if $isCurrent }}active{{ end }}">{{ $lang.LanguageName }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Theme (light/dark) toggle */}}
+    <div class="theme-row">
+      <div class="seg" id="theme-seg">
+        <button data-val="light">{{ i18n "light" | default "Light" }}</button>
+        <button data-val="dark" class="active">{{ i18n "dark" | default "Dark" }}</button>
+      </div>
+    </div>
+  </div>
+
+  {{/* Main menu */}}
+  {{ with .Site.Menus.main }}
+  <nav class="card menu">
+    <h3>{{ i18n "navigation" | default "Navigation" }}</h3>
+    <ul>
+      {{ range . }}
+        <li><a href="{{ .URL | relLangURL }}">
+          {{ with .Pre }}{{ partial "icon.html" (string .) }}{{ end }}
+          <span class="label-txt">{{ i18n .Identifier | default .Name }}</span>
+        </a></li>
+      {{ end }}
+    </ul>
+  </nav>
+  {{ end }}
+
+
+  {{/* Categories */}}
+  {{ with .Site.Taxonomies.categories }}
+  <div class="card categories">
+    <h3>{{ i18n "categories" | default "Categories" }}</h3>
+    <ul>
+      {{ range $name, $pages := . }}
+        <li><a href="{{ (printf "/categories/%s/" $name) | relLangURL }}">{{ $name | humanize }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+</aside>

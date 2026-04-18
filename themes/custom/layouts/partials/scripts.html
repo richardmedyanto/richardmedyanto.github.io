@@ -1,0 +1,84 @@
+{{- /* scripts.html — shader engine + switcher wiring */ -}}
+{{ $engine  := resources.Get "js/shader-engine.js"       | minify | fingerprint }}
+{{ $mesh    := resources.Get "js/mesh-gradient.glsl.js"  | minify | fingerprint }}
+{{ $ambient := resources.Get "js/ambient-flow.glsl.js"   | minify | fingerprint }}
+<script src="{{ $engine.RelPermalink }}"  defer></script>
+<script src="{{ $mesh.RelPermalink }}"    defer></script>
+<script src="{{ $ambient.RelPermalink }}" defer></script>
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  const canvas = document.getElementById('shader-canvas');
+  const SHADERS = { mesh: window.SHADER_MESH, ambient: window.SHADER_AMBIENT };
+  const state = {
+    which:     localStorage.getItem('shader:which') || 'mesh',
+    intensity: parseFloat(localStorage.getItem('shader:intensity') || '0.20'),
+    theme:     document.documentElement.getAttribute('data-theme') === 'dark' ? 1 : 0,
+  };
+  const engine = new ShaderEngine(canvas, { intensity: state.intensity, theme: state.theme });
+
+  function setShader(w) {
+    state.which = w; localStorage.setItem('shader:which', w);
+    if (w === 'off') { engine.stop(); canvas.style.display = 'none'; return; }
+    canvas.style.display = 'block';
+    if (engine.load(SHADERS[w])) engine.start();
+  }
+  function setTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    localStorage.setItem('theme', t);
+    state.theme = t === 'dark' ? 1 : 0;
+    engine.setTheme(state.theme);
+    if (engine.disabled) engine.fallback();
+  }
+  function setIntensity(v) {
+    state.intensity = v; localStorage.setItem('shader:intensity', String(v));
+    engine.setIntensity(v);
+  }
+  function wireSeg(id, handler) {
+    const el = document.getElementById(id); if (!el) return;
+    el.addEventListener('click', (e) => {
+      const b = e.target.closest('button'); if (!b) return;
+      [...el.children].forEach(c => c.classList.remove('active'));
+      b.classList.add('active');
+      handler(b.dataset.val);
+    });
+  }
+
+  wireSeg('shader-seg', setShader);
+  wireSeg('theme-seg', setTheme);
+
+  // Hamburger menu for mobile sidebar
+  const hamburger = document.getElementById('hamburger');
+  const sidebar = document.querySelector('.sidebar');
+  const backdrop = document.getElementById('sidebar-backdrop');
+  function setMenu(open) {
+    sidebar.classList.toggle('open', open);
+    backdrop.classList.toggle('visible', open);
+    hamburger.setAttribute('aria-expanded', String(open));
+  }
+  if (hamburger && sidebar && backdrop) {
+    hamburger.addEventListener('click', () => setMenu(!sidebar.classList.contains('open')));
+    backdrop.addEventListener('click', () => setMenu(false));
+    window.addEventListener('resize', () => { if (window.innerWidth > 860) setMenu(false); });
+  }
+
+  // Reflect saved state in UI
+  document.querySelectorAll('#shader-seg button').forEach(b =>
+    b.classList.toggle('active', b.dataset.val === state.which));
+  document.querySelectorAll('#theme-seg button').forEach(b =>
+    b.classList.toggle('active', b.dataset.val === (state.theme === 1 ? 'dark' : 'light')));
+
+  const intenEl = document.getElementById('intensity');
+  const intenVal = document.getElementById('intensity-val');
+  if (intenEl && intenVal) {
+    intenEl.value = String(Math.round(state.intensity * 100));
+    intenVal.textContent = intenEl.value;
+    intenEl.addEventListener('input', () => {
+      intenVal.textContent = intenEl.value;
+      setIntensity(parseFloat(intenEl.value) / 100);
+    });
+  }
+
+  setShader(state.which);
+});
+</script>
