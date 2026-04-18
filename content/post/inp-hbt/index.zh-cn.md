@@ -29,8 +29,9 @@ HBT 由三个区域组成：发射极、基极和集电极。
 
 下图展示了 Gummel 曲线和输出特性曲线（family curves）。在本次实验中，我们在发射极尺寸为 20 μm 的器件上获得了最大电流增益（β）为 14.6。
 
-![图：Gummel 曲线](gummel.png "Gummel plot")
-![图：输出特性曲线](family.png "Family plot")
+| | |
+|--|--|
+| ![图：Gummel 曲线](gummel.png "Gummel plot") | ![图：输出特性曲线](family.png "Family plot") |
 
 ## 后续工作
 

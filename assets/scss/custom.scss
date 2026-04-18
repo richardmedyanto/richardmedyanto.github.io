@@ -91,6 +91,14 @@
     z-index: 1;
 }
 
+/* ── Mobile: disable backdrop-filter (shader is off, nothing to blur) ── */
+@media (max-width: 860px) {
+  .card, .post {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
 /* ── Sidebar description: improved readability ── */
 .sidebar header .site-description {
     line-height: 1.9;

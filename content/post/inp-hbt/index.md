@@ -27,8 +27,9 @@ The epitaxial structure of this device was grown on top of InP substrate. In our
 
 The graphs below plot the gummel and family curves. In this round, we obtain the maximum gain (beta) of 14.6 on our 20um-sized emitter device.
 
-![Picture: Gummel plot](gummel.png "Gummel plot")
-![Picture: Family plot](family.png "Family plot")
+| | |
+|--|--|
+| ![Picture: Gummel plot](gummel.png "Gummel plot") | ![Picture: Family plot](family.png "Family plot") |
 
 ## Future Work
 

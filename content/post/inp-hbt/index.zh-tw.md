@@ -28,8 +28,9 @@ HBT 由三個區域組成：發射極、基極與集極。
 
 下圖顯示 Gummel 曲線與輸出特性曲線（family curves）。在本次量測中，我們於發射極尺寸為 20 μm 的元件上獲得最大電流增益（β）為 14.6。
 
-![圖：Gummel 曲線](gummel.png "Gummel plot")
-![圖：輸出特性曲線](family.png "Family plot")
+| | |
+|--|--|
+| ![圖：Gummel 曲線](gummel.png "Gummel plot") | ![圖：輸出特性曲線](family.png "Family plot") |
 
 ## 未來工作
 

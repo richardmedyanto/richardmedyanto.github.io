@@ -98,16 +98,15 @@
     }
 
     _bindEvents() {
+      // Canvas is fixed 100vw×100vh — skip getBoundingClientRect() on every event.
       const onMove = (e) => {
-        const r = this.canvas.getBoundingClientRect();
-        this.targetMouse[0] = (e.clientX - r.left) / r.width;
-        this.targetMouse[1] = 1.0 - (e.clientY - r.top) / r.height;
+        this.targetMouse[0] = e.clientX / window.innerWidth;
+        this.targetMouse[1] = 1.0 - e.clientY / window.innerHeight;
         this.lastMouseMove = performance.now();
       };
       const onClick = (e) => {
-        const r = this.canvas.getBoundingClientRect();
-        const x = (e.clientX - r.left) / r.width;
-        const y = 1.0 - (e.clientY - r.top) / r.height;
+        const x = e.clientX / window.innerWidth;
+        const y = 1.0 - e.clientY / window.innerHeight;
         this.clicks.push({ x, y, t: (performance.now() - this.t0) / 1000 });
         if (this.clicks.length > 4) this.clicks.shift();
       };
@@ -116,13 +115,14 @@
       if (this.opts.pauseWhenHidden) {
         document.addEventListener('visibilitychange', () => { this.paused = document.hidden; });
       }
+      // Resize: update cached dimensions and GL viewport immediately.
       window.addEventListener('resize', () => this._resize());
     }
 
     _resize() {
       const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
-      const w = Math.floor(this.canvas.clientWidth * dpr);
-      const h = Math.floor(this.canvas.clientHeight * dpr);
+      const w = Math.floor(window.innerWidth * dpr);
+      const h = Math.floor(window.innerHeight * dpr);
       if (this.canvas.width !== w || this.canvas.height !== h) {
         this.canvas.width = w; this.canvas.height = h;
         if (this.gl) this.gl.viewport(0, 0, w, h);
@@ -177,7 +177,6 @@
     _draw(now) {
       const gl = this.gl;
       if (!this.prog) return;
-      this._resize();
 
       // Smooth mouse follow
       const k = 0.08;

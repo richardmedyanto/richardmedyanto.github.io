@@ -12,19 +12,19 @@ languages:
     weight: 1
     title: Richard Medyanto's Blog
     params:
-      description: "Hi, I'm Richard — an engineer driven by a deep passion for technology and innovation. This blog is where I share my latest projects, technical insights, and hands-on experiences!"
+      description: "Hi, I'm Richard — engineer, builder, and chronic over-thinker. I write about my projects, technical deep-dives, and life experiences."
   zh-tw:
     languageName: 繁體中文
     weight: 2
     title: Richard Medyanto 的部落格
     params:
-      description: "嗨，我是 Richard — 一位對科技與創新充滿熱情的工程師。"
+      description: "嗨，我是 Richard — 工程師、建造者，也是個停不下來的過度思考者。我在這裡記錄我的專案、技術深度探索，以及生活點滴。"
   zh-cn:
     languageName: 简体中文
     weight: 3
     title: Richard Medyanto 的博客
     params:
-      description: "嗨，我是 Richard — 一位对科技与创新充满热情的工程师。"
+      description: "嗨，我是 Richard — 工程师、建造者，也是个停不下来的过度思考者。我在这里记录我的项目、技术深度探索，以及生活点滴。"
 
 params:
   author: Richard Medyanto
