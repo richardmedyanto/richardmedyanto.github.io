@@ -3,7 +3,8 @@ title: Richard Medyanto's Blog
 theme: custom
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
-paginate: 5
+pagination:
+  pagerSize: 5
 
 languages:
   en:
