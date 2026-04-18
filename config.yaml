@@ -68,6 +68,9 @@ taxonomies:
   category: categories
   tag: tags
 
+minify:
+  disableXML: true
+
 markup:
   goldmark:
     renderer:
