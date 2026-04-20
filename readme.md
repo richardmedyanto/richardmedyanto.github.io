@@ -4,6 +4,8 @@ This repository contains my personal website.
 
 ## How to Use This Template
 
+Try this template by running `hugo serve`.
+
 To customize this website for your own use, modify the contents in the following directories:
 
 - **`content/`** - Update your page content and data
