@@ -1,0 +1,4 @@
+{{ define "main" }}
+  <div class="list-header"><h1>{{ .Title }}</h1>{{ with .Content }}<div class="content">{{ . }}</div>{{ end }}</div>
+  {{ range .Pages }}{{ partial "post-card.html" . }}{{ end }}
+{{ end }}

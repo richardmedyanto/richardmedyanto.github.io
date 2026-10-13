@@ -3,6 +3,7 @@ title: "Crash Prevention System"
 description: "A crash prevention system with infrared sensor that stops the vehicle before crashing."
 slug: "crash-prevention"
 date: 2022-02-12 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

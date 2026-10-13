@@ -3,6 +3,7 @@ title: "National Medical Record Database"
 description: "An modern, multipurpose, integrated national medical record database system."
 slug: "medical-record-db"
 date: 2022-02-10 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

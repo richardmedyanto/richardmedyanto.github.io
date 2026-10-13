@@ -3,6 +3,7 @@ title: "IoT Motorized Gate and Surveillance System"
 description: "An IoT solution to control gates and CCTV surveilance from phones."
 slug: "motorized-gate"
 date: 2022-02-08 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
@@ -31,4 +32,3 @@ For the prototype, we used an ESP32 as the gate controller and an ESP32-cam to c
 Watch the video below for demo:
 
 {{< youtube PPq_CMVNdZg >}}
-

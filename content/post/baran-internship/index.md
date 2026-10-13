@@ -3,6 +3,7 @@ title: "Baran Energy Internship Experience"
 description: "My experiences as a Hardware Engineer Intern in Baran Energy."
 slug: "baran-internship"
 date: 2022-10-18 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - Work
 ---

@@ -3,12 +3,13 @@ title: "碰撞预防系统"
 description: "一个使用红外线传感器在碰撞前使车辆停止的防碰撞系统。"
 slug: "crash-prevention"
 date: 2022-02-12 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
 
 
-> 本项目为我本科第五学期《高级控制系统与数字信号处理》课程期末项目。
+> 本项目为我本科第五学期《高级控制系统》和《数字信号处理》课程的期末考试提交作品。
 
 ## 背景
 
@@ -16,7 +17,7 @@ categories:
 
 ## 解决方案
 
-本项目提出一种基于距离传感器的自动控制系统，可在必要时自动降低车速或停车以避免碰撞。该系统能够覆盖驾驶员的速度输入，从而优先保证安全。
+本项目提出一种基于距离传感器的自动控制系统，可在必要时自动降低车速或停车以避免碰撞。该系统应能在必要时接管驾驶员设定的车速，以避免碰撞。
 
 ## 原型
 
@@ -36,5 +37,4 @@ categories:
 
 {{< youtube ViILeSpAEmI >}}
 
-本项目的展示幻灯片可在此查看：[链接](https://drive.google.com/file/d/1529pCAZztNKZ6Sh6hqMawIYgnN5aJWL/view)
-
+本项目的展示幻灯片可在此查看：[链接](https://drive.google.com/file/d/1529pCAZztNKZ6Sh6hqMawIYgnN5aZJWL/view)

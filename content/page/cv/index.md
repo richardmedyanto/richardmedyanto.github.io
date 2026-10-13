@@ -3,6 +3,7 @@ title: Curriculum Vitae
 url: /curriculum-vitae/
 comments: false
 date: 2025-07-16T15:54:20.532Z
+lastmod: 2026-10-13T16:54:05Z
 description: Explore my curriculum vitae.
 keywords:
     - Curriculum Vitae
@@ -10,14 +11,14 @@ keywords:
 
 ## Profile
 
-Final-year master's student at National Taiwan University specializing in III-V compound semiconductor device fabrication, process development, and characterization. Experienced in cleanroom processing (photolithography, e-beam lithography, EBPVD, PECVD, ICP-RIE), DC/RF measurement, and device simulation (Silvaco TCAD, Keysight ADS). Passionate about optoelectronic devices and next-generation communication technologies.
+I hold a Master's degree from National Taiwan University. My research focused on fabrication and characterization of radio-frequency InP heterojunction bipolar transistors (HBTs). Experienced in cleanroom processing (photolithography, e-beam lithography, EBPVD, PECVD, ICP-RIE), DC/RF measurement, and device simulation (Silvaco TCAD, Keysight ADS). Passionate about semiconductors, optoelectronic devices and next-generation communication technologies, I am always eager to be challenged with new and exciting problems while learning new skills in solving them.
 
 
 ## Education
 
 ### Master of Science: National Taiwan University, Taiwan
-Graduate Institute of Photonics and Optoelectronics, College of EECS · 2024–2026 (Expected)
-* GPA: 4.23/4.30, ranked 11th out of 115 students (2024–2025 academic year).
+Graduate Institute of Photonics and Optoelectronics, College of EECS · 2024–2026
+* GPA: 4.24/4.30.
 * Research Assistant at the [IOED Lab](https://cc.ee.ntu.edu.tw/~ioedlab/) under Prof. Chao-Hsin Wu — HBT and LET fabrication, characterization, simulation, and mask design.
 * NTU Outstanding International Graduate Student Scholarship (Fall 2025, Spring 2026); NTU EECS International Student Scholarship (Fall 2024, Spring 2025).
 * RIE and PECVD machine superuser, NTU GIPO cleanroom (Jul–Aug 2025).
@@ -36,8 +37,9 @@ Math and Science Program · 2016–2019
 
 ## Professional Experience
 
-### Integrated Optoelectronic Devices (IOED) Lab, NTU: Research Assistant, August 2024 - Present
-Fabricate submicron InP/GaAs HBTs using a triple-mesa, wet-etch, self-aligned process with metals defined by e-beam lithography. Develop and optimize metal stack recipes to reduce contact resistance and improve DC/RF performance. Design and execute process experiments (DOE). Perform DC characterization (I-V, Gummel), RF measurement (S-parameters), and TLM extraction. Simulate devices with Silvaco TCAD; design layouts and masks with Keysight ADS.
+### Integrated Optoelectronic Devices (IOED) Lab, NTU: Research Assistant, August 2024 - August 2026
+Fabricated InP HBTs using a triple-mesa, wet-etch, self-aligned process with metals defined by e-beam lithography. Fabricated GaAs HBLETs/LETs using a similar method. Developed and optimized metal stack recipes to reduce contact resistance and improve DC/RF performance. Created Design of Experiments (DOE). Performed DC characterization (I-V, Gummel), RF measurement (S-parameters), and TLM extraction. Simulated devices with Silvaco TCAD; design layouts and masks with Keysight ADS.
+* [Lab Website](https://cc.ee.ntu.edu.tw/~ioedlab/)
 
 ### PT Graha Securindo Pratama: Assistant Technical Engineer, Nov 2023 - May 2024
 Integrated thermal imaging cameras (FLIR, Sensia, Optris) for industrial gas leak detection and temperature monitoring. Handled field commissioning, system diagnostics, and customer training.
@@ -63,7 +65,7 @@ Taught Digital Systems to 70 underclassmen, created and graded homework assignme
 
 ### Radio-Frequency InP Heterojunction Bipolar Transistor (RF InP HBT)
 * Part of the NSTC compound semiconductor project — developing ultra-high-speed submicron InP DHBTs for 6G applications.
-* Tasks: process development, DOE, device fabrication, DC/RF measurement, and small-signal modeling.
+* Tasks: process development, DoE, device fabrication, DC/RF measurement, and small-signal modeling.
 
 ### Wavelength-Dependent Photocurrent Study in GaAs HBLETs
 * Characterized single quantum well heterojunction phototransistors under varying optical wavelengths.

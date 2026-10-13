@@ -1,0 +1,12 @@
+<script>
+(() => {
+  const root = document.documentElement;
+  let theme;
+  try { theme = localStorage.getItem('richard-cards:theme') || localStorage.getItem('theme'); } catch (_) {}
+  root.dataset.theme = ['light','dark'].includes(theme) ? theme : (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  root.dataset.themeStorage = 'richard-cards:theme';
+})();
+</script>
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . | relURL }}">{{ end }}

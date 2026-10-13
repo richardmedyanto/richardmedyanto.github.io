@@ -3,6 +3,7 @@ title: InP HBT
 description: Fabrication of InP-based HBT.
 slug: inp-hbt
 date: 2025-07-16T15:46:19.509Z
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

@@ -3,6 +3,7 @@ title: "Smart Car System"
 description: "A system that integrates multiple smart features to solve various automotive-related problems."
 slug: "smart-car"
 date: 2022-07-08 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

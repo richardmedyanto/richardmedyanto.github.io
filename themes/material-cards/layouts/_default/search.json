@@ -1,0 +1,8 @@
+{{- $posts := slice -}}
+{{- range where .Site.RegularPages "Section" "post" -}}
+  {{- $category := "" -}}
+  {{- $categoryURL := "" -}}
+  {{- range first 1 (.GetTerms "categories") -}}{{- $category = .LinkTitle -}}{{- $categoryURL = .RelPermalink -}}{{- end -}}
+  {{- $posts = $posts | append (dict "title" .Title "url" .RelPermalink "description" .Description "category" $category "categoryURL" $categoryURL "date" (.Date.Format "Jan 2, 2006") "content" (.Plain | truncate 300)) -}}
+{{- end -}}
+{{- $posts | jsonify -}}

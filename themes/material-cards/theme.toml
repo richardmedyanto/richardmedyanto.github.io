@@ -1,0 +1,10 @@
+name = "material-cards"
+license = "MIT"
+description = "Rounded reading cards, selective frosted glass, and seven palettes with UTC+8 daily rotation."
+homepage = "https://github.com/richardmedyanto/richardmedyanto.github.io"
+tags = ["blog", "cards", "dark", "multilingual"]
+features = ["dark mode", "daily color palettes", "frosted controls", "multilingual", "categories", "archives"]
+min_version = "0.158.0"
+
+[author]
+  name = "Richard Medyanto"

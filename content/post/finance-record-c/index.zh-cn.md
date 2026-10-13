@@ -3,11 +3,12 @@ title: "C 语言简易财务记录应用程序"
 description: "一个以 C 语言编写的命令行财务记录应用程序。"
 slug: "finance-record-c"
 date: 2020-08-17 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
 
-> 本项目为我本科第二学期《算法与程序设计基础》课程期末项目。
+> 本项目为我本科第二学期《算法与程序设计基础》课程的期末考试提交作品。
 
 ## 背景
 
@@ -26,4 +27,3 @@ categories:
 | ![](example1.png) | ![](example2.png) |
 
 源码：[Github](https://github.com/richardmedyanto/AAPF)
-

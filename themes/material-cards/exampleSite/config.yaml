@@ -1,0 +1,19 @@
+baseURL: https://example.org/
+title: My Blog
+theme: material-cards
+params:
+  author: Your name
+  description: Your introduction.
+  materialCards:
+    palette: auto
+    weeklyPalettes:
+      monday: sage
+      tuesday: petrol
+      wednesday: plum
+      thursday: copper
+      friday: oxblood
+      saturday: navy
+      sunday: ochre
+    frost: 30
+    cardRadius: 26
+    defaultAppearance: light

@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ $date := .Date }}
+{{ if eq .Section "page" }}{{ $date = .Lastmod }}{{ end }}
+<article class="post post-detail">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+  <div class="meta">
+    <time datetime="{{ $date.Format "2006-01-02" }}">{{ $date.Format "Jan 2, 2006" }}</time>
+    <span>{{ i18n "reading_time" (dict "Count" .ReadingTime) | default (printf "%d minute read" .ReadingTime) }}</span>
+    {{ range first 1 (.GetTerms "categories") }}<a class="cat" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+  </div>
+  <div class="content">{{ .Content }}</div>
+  {{ with .Translations }}<nav class="translations" aria-label="{{ i18n "language" | default "Language" }}">{{ range . }}<a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.Label }}</a>{{ end }}</nav>{{ end }}
+</article>
+{{ end }}

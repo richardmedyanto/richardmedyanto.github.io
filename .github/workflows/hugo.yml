@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.9
+      HUGO_VERSION: "0.167.0"
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Install Hugo CLI
@@ -53,6 +53,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          hugo version
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"

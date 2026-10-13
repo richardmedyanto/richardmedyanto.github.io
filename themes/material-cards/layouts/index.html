@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1 class="sr-only">{{ .Site.Title }}</h1>
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") }}
+  {{ range $paginator.Pages }}{{ partial "post-card.html" . }}{{ end }}
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination" aria-label="{{ i18n "pagination" | default "Page navigation" }}">
+    {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">← {{ i18n "prev" }}</a>{{ end }}
+    <span>{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+    {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">{{ i18n "next" }} →</a>{{ end }}
+  </nav>
+  {{ end }}
+{{ end }}

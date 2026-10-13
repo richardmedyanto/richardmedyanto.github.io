@@ -1,0 +1,6 @@
+<button class="theme-switch glass" type="button" role="switch" aria-label="{{ i18n "dark_appearance" | default "Dark appearance" }}" aria-checked="false">
+  <span class="switch-thumb">
+    {{ with resources.Get "icons/theme-sun.svg" }}{{ .Content | replaceRE "<svg " "<svg class=\"switch-sun\" aria-hidden=\"true\" " | safeHTML }}{{ end }}
+    {{ with resources.Get "icons/theme-moon.svg" }}{{ .Content | replaceRE "<svg " "<svg class=\"switch-moon\" aria-hidden=\"true\" " | safeHTML }}{{ end }}
+  </span>
+</button>

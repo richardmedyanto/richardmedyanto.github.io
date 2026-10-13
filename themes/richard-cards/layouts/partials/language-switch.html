@@ -1,0 +1,13 @@
+{{ $page := . }}
+{{ $labels := dict "en" "EN" "zh-tw" "繁體" "zh-cn" "简体" }}
+{{ if gt (len hugo.Sites) 1 }}
+<div class="lang-toggle glass" role="group" aria-label="{{ i18n "language" | default "Language" }}">
+  {{ range hugo.Sites }}
+    {{ $lang := .Language }}
+    {{ $current := eq $lang.Lang $page.Site.Language.Lang }}
+    {{ $url := .Home.RelPermalink }}
+    {{ range $page.AllTranslations }}{{ if eq .Language.Lang $lang.Lang }}{{ $url = .RelPermalink }}{{ end }}{{ end }}
+    <a href="{{ $url }}" lang="{{ $lang.Lang }}" hreflang="{{ $lang.Lang }}" aria-label="{{ $lang.Label }}"{{ if $current }} class="active" aria-current="true"{{ end }}>{{ index $labels $lang.Lang | default $lang.Label }}</a>
+  {{ end }}
+</div>
+{{ end }}

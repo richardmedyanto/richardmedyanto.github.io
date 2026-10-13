@@ -1,0 +1,9 @@
+<article class="post post-card">
+  <h2><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+  <div class="meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <span>{{ i18n "reading_time" (dict "Count" .ReadingTime) | default (printf "%d minute read" .ReadingTime) }}</span>
+    {{ range first 1 (.GetTerms "categories") }}<a class="cat" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+  </div>
+</article>

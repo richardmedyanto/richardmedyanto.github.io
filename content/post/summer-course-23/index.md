@@ -3,6 +3,7 @@ title: "2023 Japan Summer Course"
 description: "My experiences in Fukuoka, Japan during 2023 summer course."
 slug: "2023-summer-course"
 date: 2023-09-15 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - Others
     - Work

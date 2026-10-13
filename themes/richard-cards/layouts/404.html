@@ -1,0 +1,8 @@
+{{- /* 404 */ -}}
+{{ define "main" }}
+<article class="post post-detail">
+  <h1>404</h1>
+  <p class="lede">{{ i18n "not_found" | default "Page not found." }}</p>
+  <p><a href="{{ "/" | relLangURL }}">← {{ i18n "back_home" | default "Back home" }}</a></p>
+</article>
+{{ end }}

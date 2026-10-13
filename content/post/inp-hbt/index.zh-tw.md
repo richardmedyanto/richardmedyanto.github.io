@@ -1,8 +1,9 @@
 ---
 title: InP HBT
-description: InP 基異質接面雙極性電晶體的製程。
+description: InP 基異質接面雙極性電晶體的製作。
 slug: inp-hbt
 date: 2025-07-16T15:46:19.509Z
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
@@ -16,13 +17,13 @@ categories:
 
 ## 元件
 
-![圖：發射極尺寸為 10 μm 的 HBT 元件](hbt.jpg "10um-sized emitter HBT devices")
+![圖：發射極尺寸為 10 μm 的 HBT 元件](hbt.jpg "發射極尺寸為 10 μm 的 HBT 元件")
 
 HBT 由三個區域組成：發射極、基極與集極。
 
 ## 製程流程
 
-此元件的外延結構生長於 InP 基板上。在我們的實驗室中，我們使用 MA6 進行微影製程（photolithography），透過濕蝕刻形成 mesa 結構，接著沉積金屬接點，並進行退火處理，以形成與半導體之間的歐姆接觸。
+此元件的磊晶結構生長於 InP 基板上。在我們的實驗室中，我們使用 MA6 進行微影製程（photolithography），透過濕蝕刻形成 mesa 結構，接著沉積金屬接點，並進行退火處理，以形成與半導體之間的歐姆接觸。
 
 ## 直流量測
 
@@ -30,8 +31,8 @@ HBT 由三個區域組成：發射極、基極與集極。
 
 | | |
 |--|--|
-| ![圖：Gummel 曲線](gummel.png "Gummel plot") | ![圖：輸出特性曲線](family.png "Family plot") |
+| ![圖：Gummel 曲線](gummel.png "Gummel 曲線") | ![圖：輸出特性曲線](family.png "輸出特性曲線") |
 
 ## 未來工作
 
-為了實現射頻（RF）元件，仍需進一步優化製程。目前 IOED 實驗室的重點改進方向包括：將接觸電阻降低至 1e-8 Ω·cm²、進行表面鈍化，以及提升製程良率。
+為了實現射頻（RF）元件，仍需進一步最佳化製程。目前 IOED 實驗室的重點改進方向包括：將接觸電阻降低至 1e-8 Ω·cm²、進行表面鈍化，以及提升製程良率。

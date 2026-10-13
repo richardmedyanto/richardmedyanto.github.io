@@ -1,0 +1,35 @@
+{{ $settings := .Site.Params.materialCards | default dict }}
+{{ $available := slice }}
+{{ range $key, $palette := hugo.Data.materialPalettes }}{{ $available = $available | append $key }}{{ end }}
+{{ $defaults := dict "palette" ($settings.palette | default "auto") "weeklyPalettes" ($settings.weeklyPalettes | default dict) "available" $available "frost" ($settings.frost | default 30) "radius" ($settings.cardRadius | default 26) "appearance" ($settings.defaultAppearance | default "light") }}
+{{ $runtime := resources.Get "js/palette-runtime.js" | minify | fingerprint }}
+<script src="{{ $runtime.RelPermalink }}"></script>
+<script>
+(() => {
+  const defaults = {{ $defaults | jsonify | safeJS }};
+  const root = document.documentElement;
+  let theme, selection;
+  const settingsKey = 'material-cards:palette:v2';
+  try {
+    theme = localStorage.getItem('material-cards:theme');
+    selection = JSON.parse(localStorage.getItem(settingsKey) || 'null');
+  } catch (_) {}
+  const fallback = defaults.appearance === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : defaults.appearance;
+  root.dataset.theme = ['light','dark'].includes(theme) ? theme : (['light','dark'].includes(fallback) ? fallback : 'light');
+  root.dataset.themeStorage = 'material-cards:theme';
+  root.dataset.settingsStorage = settingsKey;
+  const state = MaterialPalettes.resolvePalette(defaults, selection, Date.now());
+  root.dataset.palette = state.palette;
+  root.dataset.paletteChoice = state.choice;
+  const frost = Math.max(20, Math.min(85, Number(defaults.frost) || 30));
+  root.style.setProperty('--frost', frost + '%');
+  root.style.setProperty('--glass-blur', (8 + frost * .24) + 'px');
+  root.style.setProperty('--card-radius', Math.max(20, Math.min(32, Number(defaults.radius) || 26)) + 'px');
+  window.materialCardsConfiguration = defaults;
+})();
+</script>
+{{ $paletteCSS := resources.Get "css/palettes.css" | resources.ExecuteAsTemplate "css/material-palettes.css" . | minify | fingerprint }}
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $paletteCSS.RelPermalink }}">
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . | relURL }}">{{ end }}

@@ -3,6 +3,7 @@ title: "Analog Car Cabin Air Exhaust System"
 description: "An analog system that exhausts air when a car gets too hot."
 slug: car-cabin-exhaust
 date: 2020-12-11 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 

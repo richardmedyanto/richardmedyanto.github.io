@@ -1,17 +1,18 @@
 ---
 title: OPTIC 2025
-description: Optics & Photonics Taiwan International Conference (OPTIC) 2025 Conference.
+description: 2025 台湾光电科技国际研讨会（OPTIC）。
 slug: optic-2025
 date: 2025-12-10T15:46:19.509Z
+lastmod: 2026-10-13T16:54:05Z
 categories:
-    - projects
+    - Others
 ---
 
 > 本项目在台湾大学 IOED 实验室完成
 
 ## OPTIC 2025
 
-我有机会在 **Optics & Photonics Taiwan International Conference (OPTIC) 2025**（2025 年 12 月举办）上展示我的研究成果。这是一次非常宝贵的经历，让我能够与来自光电子领域的研究人员和工程师分享我们在异质结光电晶体管方面的工作，并深入了解光子学和半导体器件研究的最新进展。
+我有机会在 **2025 台湾光电科技国际研讨会（Optics & Photonics Taiwan International Conference，OPTIC）**（2025 年 12 月举办）上展示我的研究成果。这是一次非常宝贵的经历，让我能够与来自光电子领域的研究人员和工程师分享我们在异质结光电晶体管方面的工作，并深入了解光子学和半导体器件研究的最新进展。
 
 ![参加 OPTIC 2025](optic.jpg)
 
@@ -23,8 +24,8 @@ categories:
 
 ![光照条件下的能带图与器件结构](fig1.png)
 
-由于 830 nm 光具有更短的波长（更高的光子能量），相比 905 nm 光，在基于 GaAs 的有源层中吸收更强。这会产生更大的光生电流，在基极-集电极（BC）二极管特性中表现为更高的反向电流幅值，并在 Ic–Vce 特性曲线中体现为更大的集电极电流。
+由于 830 nm 光具有更短的波长（更高的光子能量），相比 905 nm 光，在基于 GaAs 的有源层中吸收更强。这会产生更大的光生电流，在基极-集电极（BC）二极管特性中表现为更高的反向电流幅值，并在 I_c–V_ce 特性曲线中体现为更大的集电极电流。
 
-![830 nm 与 905 nm 光照下的 BC 二极管特性与 Ic-Vce 曲线族](fig23.png)
+![830 nm 与 905 nm 光照下的 BC 二极管特性与 I_c–V_ce 曲线族](fig23.png)
 
 这些结果验证了 SQW-HPT 的波长选择性特性，使其成为波长选择型光电探测器以及光电集成电路（OEIC）应用的有前景候选器件。

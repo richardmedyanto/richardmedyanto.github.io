@@ -1,0 +1,5 @@
+{{- /* icon.html — resolve an icon name to its SVG from assets/icons/ */ -}}
+{{- $name := . -}}
+{{- with resources.Get (printf "icons/%s.svg" $name) -}}
+  {{- .Content | safeHTML -}}
+{{- end -}}

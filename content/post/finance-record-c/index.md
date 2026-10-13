@@ -3,6 +3,7 @@ title: "Simple Financial Recording App in C Language"
 description: "A CLI-based simple financial recording app written in C."
 slug: "finance-record-c"
 date: 2020-08-17 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

@@ -3,6 +3,7 @@ title: "Light-Seeking Robot: A VHDL Project"
 description: An FPGA-based robot with wheels that moves towards the light.
 slug: light-seeking-robot
 date: 2021-07-10 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 

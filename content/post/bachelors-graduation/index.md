@@ -3,6 +3,7 @@ title: "Graduated!"
 description: "Graduated with a Bachelor of Science from Binus University."
 slug: "bachelors-graduation"
 date: 2023-11-21 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - others
 ---
@@ -11,13 +12,13 @@ After 4 years of study, I finally graduated from Binus ASO School of Engineering
 
 ## Study Recap
 
-In my first year, I got to know new friends and studied the fundamentals of programming, physics, mechanical and electrical design. A project I did in my first year is the [C language financial recording app](/p/finance-record-c).
+In my first year, I got to know new friends and studied the fundamentals of programming, physics, mechanical and electrical design. A project I did in my first year is the [C language financial recording app](/post/finance-record-c).
 
-In my second year, I continued learning and building my skills by doing multiple projects. Some of them are [Analog Car Cabin Air Exhaust System](/p/car-cabin-exhaust), [Analog Car Door Impact Prevention System](/p/impact-prevention) and [Light-Seeking Robot](/p/light-seeking-robot).
+In my second year, I continued learning and building my skills by doing multiple projects. Some of them are [Analog Car Cabin Air Exhaust System](/post/car-cabin-exhaust), [Analog Car Door Impact Prevention System](/post/impact-prevention) and [Light-Seeking Robot](/post/light-seeking-robot).
 
-In my third year, I joined a [hydroponics IoT project](/p/depok-iot-hydroponics). I also [taught underclassmen as lecturer assistant and did a project](/p/fir-iir-vhdl). My other projects are [Crash Prevention System](/p/crash-prevention), [National Medical Record Database](/p/medical-record-db), [IoT Motorized Gate and Surveillance System](/p/motorized-gate) and [Smart Car System](/p/smart-car).
+In my third year, I joined a [hydroponics IoT project](/post/depok-iot-hydroponics). I also [taught underclassmen as lecturer assistant and did a project](/post/fir-iir-vhdl). My other projects are [Crash Prevention System](/post/crash-prevention), [National Medical Record Database](/post/medical-record-db), [IoT Motorized Gate and Surveillance System](/post/motorized-gate) and [Smart Car System](/post/smart-car).
 
-In my final year, I interned at [Baran Energy](/p/baran-internship) and worked at [Daun Pintar](/p/daun-pintar). I also finished my [thesis about heliostat](/p/heliostat) and went to Fukuoka, Japan for [Summer Course](/p/summer-course-23). After coming back, my thesis project was presented in [ICEEI 2023](/p/iceei-2023).
+In my final year, I interned at [Baran Energy](/post/baran-internship) and worked at [Daun Pintar](/post/daun-pintar). I also finished my [thesis about heliostat](/post/heliostat) and went to Fukuoka, Japan for [Summer Course](/post/2023-summer-course/). After coming back, my thesis project was presented in [ICEEI 2023](/post/iceei-2023).
 
 ## Words of Gratitude
 

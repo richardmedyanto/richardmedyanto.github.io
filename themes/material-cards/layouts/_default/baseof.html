@@ -1,0 +1,21 @@
+<!doctype html>
+{{ $palette := .Site.Params.materialCards.palette | default "auto" }}
+<html lang="{{ .Site.Language.Lang }}" data-theme="light" data-palette="{{ if eq $palette "auto" }}oxblood{{ else }}{{ $palette }}{{ end }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}{{ end }}</title>
+  {{ with .Description | default .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ partial "head.html" . }}
+</head>
+<body{{ if .IsHome }} class="is-home"{{ end }}>
+  <a class="skip-link" href="#main-content">{{ i18n "skip_content" | default "Skip to content" }}</a>
+  {{ partial "topbar.html" . }}
+  <div class="layout">
+    {{ partial "sidebar.html" . }}
+    <main class="main" id="main-content">{{ block "main" . }}{{ end }}</main>
+  </div>
+  <button class="sidebar-backdrop" id="sidebar-backdrop" type="button" tabindex="-1" aria-hidden="true" inert aria-label="{{ i18n "close_navigation" | default "Close navigation" }}"></button>
+  {{ partial "scripts.html" . }}
+</body>
+</html>

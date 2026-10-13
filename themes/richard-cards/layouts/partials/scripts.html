@@ -1,0 +1,46 @@
+{{ $engine := resources.Get "js/shader-engine.js" | minify | fingerprint }}
+{{ $mesh := resources.Get "js/mesh-gradient.glsl.js" | minify | fingerprint }}
+{{ $ambient := resources.Get "js/ambient-flow.glsl.js" | minify | fingerprint }}
+{{ $controls := resources.Get "js/theme-controls.js" | minify | fingerprint }}
+<script src="{{ $engine.RelPermalink }}" defer></script>
+<script src="{{ $mesh.RelPermalink }}" defer></script>
+<script src="{{ $ambient.RelPermalink }}" defer></script>
+<script src="{{ $controls.RelPermalink }}" defer></script>
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  const canvas = document.getElementById('shader-canvas');
+  const shaders = {mesh: window.SHADER_MESH, ambient: window.SHADER_AMBIENT};
+  let savedShader = 'mesh', intensity = .2;
+  try {
+    savedShader = localStorage.getItem('shader:which') || 'mesh';
+    intensity = parseFloat(localStorage.getItem('shader:intensity') || '.2');
+  } catch (_) {}
+  const engine = new ShaderEngine(canvas, {intensity, theme: document.documentElement.dataset.theme === 'dark' ? 1 : 0});
+  function setShader(which) {
+    try { localStorage.setItem('shader:which', which); } catch (_) {}
+    if (which === 'off') { engine.stop(); canvas.style.display = 'none'; return; }
+    canvas.style.display = 'block';
+    if (engine.load(shaders[which] || shaders.mesh)) engine.start();
+  }
+  document.getElementById('shader-seg')?.addEventListener('click', event => {
+    const button = event.target.closest('button'); if (!button) return;
+    document.querySelectorAll('#shader-seg button').forEach(item => item.classList.toggle('active', item === button));
+    setShader(button.dataset.val);
+  });
+  window.addEventListener('site:themechange', event => {
+    engine.setTheme(event.detail.theme === 'dark' ? 1 : 0);
+    if (engine.disabled) engine.fallback();
+  });
+  const input = document.getElementById('intensity'), output = document.getElementById('intensity-val');
+  if (input && output) {
+    input.value = Math.round(intensity * 100); output.textContent = input.value;
+    input.addEventListener('input', () => {
+      output.textContent = input.value;
+      engine.setIntensity(Number(input.value) / 100);
+      try { localStorage.setItem('shader:intensity', String(Number(input.value) / 100)); } catch (_) {}
+    });
+  }
+  document.querySelectorAll('#shader-seg button').forEach(button => button.classList.toggle('active', button.dataset.val === savedShader));
+  setShader(savedShader);
+});
+</script>

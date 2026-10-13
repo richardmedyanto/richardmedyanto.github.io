@@ -3,11 +3,12 @@ title: "模拟车门碰撞预防系统"
 description: "一个检测到附近障碍物时发出警报的模拟系统。"
 slug: impact-prevention
 date: 2021-07-11 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
 
-> 本项目为我本科第四学期《控制系统》课程期末项目。
+> 本项目为我本科第四学期《控制系统》课程的期末考试提交作品。
 
 ## 背景
 
@@ -15,7 +16,7 @@ categories:
 
 ## 电路设计
 
-![图：电路设计](schematic_consys.jpg "Circuit Design")
+![图：电路设计](schematic_consys.jpg "电路设计")
 
 ## 工作原理
 
@@ -25,7 +26,7 @@ categories:
 
 电位器的设定位置基于如下近似计算：
 
-![图：电位器旋转比例。来源：https://www.pololu.com/product/136](pot_turn.jpg "The percentage of potentiometer turn")
+![图：电位器旋转比例。来源：https://www.pololu.com/product/136](pot_turn.jpg "电位器旋转比例")
 
 当仅上方比较器导通时，LM555 会输出约 1.8 Hz 的方波驱动蜂鸣器。这是因为在该状态下，LM555 使用连接到继电器常开端的 33 μF 电容。
 
@@ -33,7 +34,7 @@ categories:
 
 ## 原型
 
-![图：原型](prototype.png "The prototype")
+![图：原型](prototype.png "原型")
 
 ## 展示
 
@@ -42,4 +43,3 @@ categories:
 {{< youtube w0EJugUqVQU >}}
 
 [演示文稿链接](https://www.canva.com/design/DAEXnbXfPTM/UMC_lzbS3-lSLgSNfd8P9g/view?utm_content=DAEXnbXfPTM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
-

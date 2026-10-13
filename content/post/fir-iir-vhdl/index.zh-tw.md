@@ -1,8 +1,9 @@
 ---
 title: "VHDL 實現 FIR 與 IIR 濾波器"
-description: "以乘積累加方式實現 FIR 與 IIR 數位系統設計，作為數位系統課程助教成果。"
+description: "擔任數位系統課程助教期間完成的 FIR 與 IIR 數位系統設計，其中 IIR 濾波器採用乘加累積方式。"
 slug: "fir-iir-vhdl"
 date: 2022-03-14 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
@@ -11,7 +12,7 @@ categories:
 
 ## 背景
 
-在大學第五學期期間，我作為課程助教為 70 名低年級學生教授數位系統課程。在授課教師 Ir. Sofyan, S.Kom., M.Eng. 的指導下，我負責教學與協助學生完成課程專題，主要講解 FIR（有限脈衝響應）與 IIR（無限脈衝響應）濾波器的實作，以支援其期末專題開發。
+在大學第五學期期間，我作為課程助教為 70 名低年級學生教授數位系統課程。在授課教師 Ir. Sofyan, S.Kom., M.Eng. 的指導下，我負責教學與協助學生完成課程專題，主要講解 FIR（有限脈衝響應）與 IIR（無限脈衝響應）濾波器的實作，以協助他們完成需要實作數位濾波器的期末專題。
 
 ## 數位濾波器與最佳化
 
@@ -19,19 +20,19 @@ categories:
 
 FIR 濾波器實作較為簡單，通常透過移位暫存器、乘法與加法實現輸出，但缺點是為了獲得良好的頻率響應，需要較高階數。
 
-![FIR filter. Image taken from O'Reilly website](fir.png)
+![FIR 濾波器。圖片取自 O'Reilly 網站](fir.png)
 
-相較之下，IIR 濾波器在較低階數下即可獲得良好的頻率響應，相比 FIR 具有較低的運算與記憶體需求。
+相較之下，IIR 濾波器在較低階數下即可獲得良好的頻率響應，在達到類似響應時，此演算法所需的運算量與記憶體遠少於同階數的 FIR 濾波器。
 
-![IIR filter. Image taken from National Instruments website](iir.png)
+![IIR 濾波器。圖片取自 National Instruments 網站](iir.png)
 
-在上述圖中（串接二階節點形式），系統需要進行多次乘法與加法運算。一般情況下，可以為每個運算單元設計獨立硬體，例如一個 section 需要 5 個乘法器與 5 個加法器。但這種平行實作會大量消耗硬體資源，因為乘法與加法屬於組合邏輯電路，在 FPGA/CPLD 上資源有限。
+在上述圖中（串接二階區段形式），系統需要進行多次乘法與加法運算。一般情況下，可以為每個運算單元設計獨立硬體，例如一個區段需要 5 個乘法器與 5 個加法器。但這種平行實作會大量消耗硬體資源，因為乘法與加法屬於組合邏輯電路，在 FPGA/CPLD 上資源有限。
 
-![IIR filter 的潛在問題](iir-problem.png)
+![IIR 濾波器的潛在問題](iir-problem.png)
 
-因此可以利用時脈頻率遠高於資料更新速率的特性，將原本的平行運算改為序列執行。透過一個乘加單元（multiply-accumulate, MAC）依序完成所有計算，而不是使用多個平行運算單元。這就像使用一台計算機依序完成 10 次計算，而不是使用 10 台計算機同時計算。由於輸入來自不同路徑，需要使用多工器（MUX）來選擇輸入來源。
+因此可以利用時脈頻率遠高於移位速率的特性，將原本的平行運算改為序列執行。不必建立 5 個乘法器與 5 個加法器，而可透過一個乘加累積單元（multiply-accumulate, MAC）依序完成所有計算，而不是使用多個平行運算單元。這就像使用一台計算機依序完成 10 次計算，而不是使用 10 台計算機同時計算。由於輸入來自不同路徑，需要使用多工器（MUX）來選擇輸入來源。
 
-![Multiply-accumulate approach](multiply-accumulate.png)
+![乘加累積方式](multiply-accumulate.png)
 
 最終實作的 VHDL 程式基於串接二階結構，實現 FIR 與 IIR 濾波器的數位設計最佳化版本，以降低硬體資源使用量。濾波器增益係數透過 MATLAB Filter Design 計算並轉換為二進位以符合設計規格。完整 VHDL 程式碼可於 [Github](https://github.com/richardmedyanto/DigitalSystem) 查看。
 
@@ -41,10 +42,10 @@ FIR 濾波器實作較為簡單，通常透過移位暫存器、乘法與加法�
 
 ## 課程講義
 
-我為課程每一堂課製作了投影片講義。可於此查看：[講義連結](https://drive.google.com/drive/folders/1CD6J7lh3XZlzTd88AjCnveswjOvHbajx?usp=sharing)。FIR 與 IIR 實作內容位於第 15 週資料夾中。
+我為課程每一堂課製作了投影片講義。可於此查看：[講義連結](https://drive.google.com/drive/folders/1CD6J7lh3XZlzTd88AjCnveswjOvHbajx?usp=sharing)。FIR 與 IIR 實作內容位於資料夾中的第 15 週檔案。
 
 ## 參考資料
 
-[FIR illustration](https://www.oreilly.com/library/view/digital-filters-design/9781905209453/ch007-sec002.html)
+[FIR 示意圖](https://www.oreilly.com/library/view/digital-filters-design/9781905209453/ch007-sec002.html)
 
-[IIR illustration](https://www.ni.com/docs/en-US/bundle/labview-digital-filter-design-toolkit-api-ref/page/lvdfdtconcepts/iir_sos_specs.html)
+[IIR 示意圖](https://www.ni.com/docs/en-US/bundle/labview-digital-filter-design-toolkit-api-ref/page/lvdfdtconcepts/iir_sos_specs.html)

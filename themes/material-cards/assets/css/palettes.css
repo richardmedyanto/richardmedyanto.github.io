@@ -1,0 +1,15 @@
+{{ range $key, $palette := hugo.Data.materialPalettes }}
+{{ range $mode := slice "light" "dark" }}
+{{ $colors := index $palette $mode }}
+[data-palette="{{ $key }}"][data-theme="{{ $mode }}"] {
+  --canvas: {{ $colors.canvas }};
+  --card: {{ $colors.surface }};
+  --text: {{ $colors.text }};
+  --text-soft: {{ $colors.soft }};
+  --accent: {{ $colors.accent }};
+  --chip: {{ $colors.selected }};
+  --divider: {{ $colors.line }};
+  --glass-color: {{ $colors.glass }};
+}
+{{ end }}
+{{ end }}

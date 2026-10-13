@@ -3,6 +3,7 @@ title: "Daun Pintar Hardware Engineer Work Experience"
 description: "My experiences as a Hardware Engineer in Daun Pintar."
 slug: "daun-pintar"
 date: 2023-03-10 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - Work
 ---
@@ -13,7 +14,7 @@ Daun Pintar is a hydroponics automation system startup founded in 2022. Daun Pin
 
 ## My Experience
 
-Mr. Iqbal, the head of division at Baran Farm, founded Daun Pintar. Following [my internship at Baran Energy](/p/baran-internship), Mr. Iqbal extended a job offer to me, Nicholas, and Mr. Agung to join Daun Pintar. Leveraging our collective expertise, we devised a new, advanced and robust hydroponics automation system. I created an updated nutrition control system, incorporating additional features while prioritizing user-friendly design, and integrating it with a mobile application.
+Mr. Iqbal, the head of division at Baran Farm, founded Daun Pintar. Following [my internship at Baran Energy](/post/baran-internship), Mr. Iqbal extended a job offer to me, Nicholas, and Mr. Agung to join Daun Pintar. Leveraging our collective expertise, we devised a new, advanced and robust hydroponics automation system. I created an updated nutrition control system, incorporating additional features while prioritizing user-friendly design, and integrating it with a mobile application.
 
 ![A selfie in the office](daun-pintar.jpg)
 

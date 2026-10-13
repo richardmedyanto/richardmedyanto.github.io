@@ -3,6 +3,7 @@ title: "Language Flashcard with Python"
 description: "A language flashcard I modified from an online course."
 slug: "flashcard-python"
 date: 2022-04-21 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

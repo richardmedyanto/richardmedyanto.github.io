@@ -3,6 +3,7 @@ title: "Automatic Heliostat Directing System Based On Microcontroller ESP32"
 description: "A heliostat prototype that keeps the reflection of sunlight on a fixed target with a mirror."
 slug: "heliostat"
 date: 2023-08-01 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

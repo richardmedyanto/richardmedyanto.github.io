@@ -3,6 +3,7 @@ title: "Analog Car Door Impact Prevention System"
 description: "An analog system that sounds alarm when a nearby obstacle is detected."
 slug: impact-prevention
 date: 2021-07-11 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 

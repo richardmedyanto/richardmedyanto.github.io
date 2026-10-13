@@ -1,8 +1,9 @@
 ---
 title: InP HBT
-description: InP 基异质结双极晶体管的制程。
+description: InP 基异质结双极型晶体管的制造。
 slug: inp-hbt
 date: 2025-07-16T15:46:19.509Z
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
@@ -17,11 +18,11 @@ categories:
 
 ## 器件
 
-![图：发射极尺寸为 10 μm 的 HBT 器件](hbt.jpg "10um-sized emitter HBT devices")
+![图：发射极尺寸为 10 μm 的 HBT 器件](hbt.jpg "发射极尺寸为 10 μm 的 HBT 器件")
 
 HBT 由三个区域组成：发射极、基极和集电极。
 
-## 制程工艺
+## 制造工艺
 
 该器件的外延结构生长在 InP 衬底上。在我们的实验室中，我们使用 MA6 进行光刻，通过湿法刻蚀形成台面结构（mesa），随后沉积金属电极。之后进行退火处理，以实现与半导体之间的欧姆接触。
 
@@ -31,7 +32,7 @@ HBT 由三个区域组成：发射极、基极和集电极。
 
 | | |
 |--|--|
-| ![图：Gummel 曲线](gummel.png "Gummel plot") | ![图：输出特性曲线](family.png "Family plot") |
+| ![图：Gummel 曲线](gummel.png "Gummel 曲线") | ![图：输出特性曲线](family.png "输出特性曲线") |
 
 ## 后续工作
 

@@ -1,0 +1,7 @@
+<header class="topbar glass">
+  {{ if not .IsHome }}
+  <button class="hamburger" id="hamburger" type="button" aria-label="{{ i18n "navigation" | default "Navigation" }}" aria-controls="site-sidebar" aria-expanded="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 8h14M5 16h14"/></svg></button>
+  {{ end }}
+  <a class="site-title" href="{{ "/" | relLangURL }}">{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Site.Params.author | default .Site.Title }}{{ end }}</a>
+  {{ partial "theme-switch.html" . }}
+</header>

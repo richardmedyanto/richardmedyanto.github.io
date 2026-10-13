@@ -1,0 +1,4 @@
+{{ $controls := resources.Get "js/theme-controls.js" | minify | fingerprint }}
+{{ $settings := resources.Get "js/material-settings.js" | minify | fingerprint }}
+<script src="{{ $controls.RelPermalink }}" defer></script>
+<script src="{{ $settings.RelPermalink }}" defer></script>

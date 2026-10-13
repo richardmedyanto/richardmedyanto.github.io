@@ -3,18 +3,19 @@ title: "基於微控制器 ESP32 的自動定日鏡導向系統"
 description: "一個以鏡子將陽光反射至固定目標的定日鏡原型。"
 slug: "heliostat"
 date: 2023-08-01 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---
 
 
-> 本專案為我的大學畢業專題。研究成果已於 [ICEEI 2023](https://stei.itb.ac.id/iceei2023/) 發表，並發表於論文（DOI：[10.1109/ICEEI59426.2023.10346650](https://doi.org/10.1109/ICEEI59426.2023.10346650)）。
+> 本專案為我的大學畢業專題。研究成果已於 [ICEEI 2023](https://stei.itb.ac.id/iceei2023/) 發表，並出版了論文（DOI：[10.1109/ICEEI59426.2023.10346650](https://doi.org/10.1109/ICEEI59426.2023.10346650)）。
 
 ## 背景
 
 太陽能是一種再生能源，通常透過光伏（太陽能板）轉換為電能。然而，太陽能板的效率較低，因此促使人們尋找其他替代方案，例如定日鏡（heliostat）。
 
-定日鏡是一種應用於聚光式太陽能發電（CSP）系統的裝置，透過將陽光反射至鍋爐來產生電力。然而，其高昂的投資成本仍然是發展上的主要障礙。
+定日鏡是一種應用於聚光式太陽能發電（CSP）系統的裝置，透過將陽光反射至鍋爐來產生電力。然而，其高昂的投資成本仍然是發展上的最大障礙。
 
 本研究旨在開發一種能夠在整天持續將陽光反射至目標的定日鏡系統。
 
@@ -26,7 +27,7 @@ categories:
 
 太陽的位置可以透過 [NOAA Solar Calculator](https://gml.noaa.gov/grad/solcalc/) 進行演算法計算。取得太陽的方位角與仰角後，即可調整鏡面，使反射光持續照射在目標上。
 
-![定日鏡將陽光反射至目標](reflection1.png) ![鏡面轉動角度為太陽的一半](reflection2.png)
+![定日鏡將陽光反射至目標](reflection1.png) ![鏡面的角位移為太陽的一半](reflection2.png)
 
 鏡面應位於太陽與目標之間。系統可用以下方塊圖表示：![](block-diagram.png)
 
@@ -42,7 +43,7 @@ categories:
 
 ![使用 KiCad 設計的 PCB](pcb-design.png) ![實體 PCB](pcb-result.png)
 
-接著將元件焊接並組裝至外殼中，如下所示。
+接著組裝元件並放入外殼中，如下所示。
 
 ![已組裝的 PCB](assembled-pcb.jpeg) ![定日鏡裝置](heliostat.png)
 

@@ -3,6 +3,7 @@ title: "IoT Technology for Hydroponic Community in Depok"
 description: "Development of hydroponics automation system."
 slug: "depok-iot-hydroponics"
 date: 2023-03-01 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - Projects
 ---

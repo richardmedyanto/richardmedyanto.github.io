@@ -1,0 +1,58 @@
+- id: appearance
+  translation: "Appearance"
+- id: wallpaper
+  translation: "Wallpaper"
+- id: intensity
+  translation: "Intensity"
+- id: light
+  translation: "Light"
+- id: dark
+  translation: "Dark"
+- id: shader_mesh
+  translation: "Mesh gradient"
+- id: shader_ambient
+  translation: "Ambient"
+- id: shader_off
+  translation: "Off"
+- id: navigation
+  translation: "Navigation"
+- id: archives
+  translation: "Archives"
+- id: categories
+  translation: "Categories"
+- id: prev
+  translation: "Previous"
+- id: next
+  translation: "Next"
+- id: not_found
+  translation: "Page not found."
+- id: back_home
+  translation: "Back home"
+- id: nav_home
+  translation: "Home"
+- id: nav_cv
+  translation: "Curriculum Vitae"
+- id: nav_archives
+  translation: "Archives"
+- id: nav_search
+  translation: "Search"
+- id: dark_appearance
+  translation: "Dark appearance"
+- id: language
+  translation: "Language"
+- id: close_navigation
+  translation: "Close navigation"
+- id: skip_content
+  translation: "Skip to content"
+- id: color_scheme
+  translation: "Color scheme"
+- id: frosting
+  translation: "Frosting"
+- id: pagination
+  translation: "Page navigation"
+- id: search_placeholder
+  translation: "Search posts…"
+- id: search_error
+  translation: "Search is unavailable. Reload the page to try again."
+- id: search_empty
+  translation: "No results found."

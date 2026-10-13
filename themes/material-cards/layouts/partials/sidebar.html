@@ -1,0 +1,53 @@
+<aside class="sidebar" id="site-sidebar" aria-label="{{ i18n "navigation" | default "Navigation" }}">
+  {{ partial "sidebar-close.html" . }}
+  <div class="profile">
+    <div class="profile-identity">
+      {{ with .Site.Params.avatar }}<img class="avatar-img" src="{{ . | relURL }}" alt="{{ $.Site.Params.author }}" width="66" height="66">{{ end }}
+      <h2>{{ .Site.Title }}</h2>
+    </div>
+    {{ with .Site.Params.description }}<p class="profile-description">{{ . }}</p>{{ end }}
+    <div class="profile-links">
+      {{ with .Site.Params.socials }}
+      <div class="socials">
+        {{ range . }}<a href="{{ .url }}" aria-label="{{ .name }}" rel="noopener" target="_blank">{{ partial "icon.html" .icon }}</a>{{ end }}
+      </div>
+      {{ end }}
+      <div class="profile-controls">
+        {{ partial "language-switch.html" . }}
+        {{ partial "theme-switch.html" . }}
+      </div>
+    </div>
+  </div>
+  {{ with .Site.Menus.main }}
+  <div class="navigation-group">
+    <h3 class="section-label">{{ i18n "pages" | default "Pages" }}</h3>
+    <nav class="menu" aria-label="{{ i18n "navigation" | default "Navigation" }}">
+      {{ $page := $ }}
+      {{ range . }}
+        {{ $url := .URL | relLangURL }}
+        {{ $active := or ($page.IsMenuCurrent "main" .) (eq $page.RelPermalink $url) (and $page.IsHome (eq .Identifier "nav_home")) }}
+        <a href="{{ $url }}"{{ if $active }} aria-current="page"{{ end }}>{{ with .Pre }}{{ partial "icon.html" (string .) }}{{ end }}<span>{{ i18n .Identifier | default .Name }}</span></a>
+      {{ end }}
+    </nav>
+  </div>
+  {{ end }}
+  {{ with .Site.Taxonomies.categories }}
+  <div class="categories-group">
+    <h3 class="section-label">{{ i18n "categories" | default "Categories" }}</h3>
+    <nav class="categories" aria-label="{{ i18n "categories" | default "Categories" }}">
+      {{ range $name, $pages := . }}<a href="{{ $pages.Page.RelPermalink }}">{{ $name | humanize }}</a>{{ end }}
+    </nav>
+  </div>
+  {{ end }}
+  <details class="appearance-settings">
+    <summary>{{ i18n "appearance" | default "Appearance" }}<svg class="appearance-chevron" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary>
+    <div class="palette-choices" role="group" aria-label="{{ i18n "color_scheme" | default "Color scheme" }}">
+      <button class="palette-choice" type="button" data-choice="auto" aria-pressed="false">{{ i18n "automatic_palette" | default "Automatic" }}</button>
+      {{ range slice "copper" "sage" "plum" "petrol" "oxblood" "navy" "ochre" }}
+        {{ $palette := index hugo.Data.materialPalettes . }}
+        <button class="palette-choice" type="button" data-choice="{{ . }}" aria-pressed="false"><span class="palette-swatch" style="--swatch-light:{{ $palette.light.accent }};--swatch-dark:{{ $palette.dark.accent }}" aria-hidden="true"></span>{{ $palette.name }}</button>
+      {{ end }}
+    </div>
+    <p class="palette-status" role="status" data-automatic-label="{{ i18n "automatic_today" }}" data-manual-label="{{ i18n "manual_palette_until_midnight" }}"></p>
+  </details>
+</aside>

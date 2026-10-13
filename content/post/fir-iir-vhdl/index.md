@@ -3,6 +3,7 @@ title: "FIR and IIR Implementation in VHDL"
 description: "A FIR and IIR digital system design with a multiply-accumulate approach for the IIR filter, finished as a Digital System course lecturer assistant."
 slug: "fir-iir-vhdl"
 date: 2022-03-14 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - projects
 ---

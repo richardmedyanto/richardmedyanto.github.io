@@ -3,6 +3,7 @@ title: OPTIC 2025
 description: Optics & Photonics Taiwan International Conference (OPTIC) 2025 Conference.
 slug: optic-2025
 date: 2025-12-10T15:46:19.509Z
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - Others
 ---

@@ -1,8 +1,9 @@
 ---
 title: "毕业了！"
-description: "从Binus大学取得理学学士学位。"
+description: "从 Binus 大学取得理学学士学位。"
 slug: "bachelors-graduation"
 date: 2023-11-21 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - others
 ---
@@ -11,17 +12,17 @@ categories:
 
 ## 学习回顾
 
-在大一时，我认识了新朋友，并学习了编程、物理、机械与电气设计的基础知识。我在这一年完成的项目之一是 [C 语言财务记录应用](/p/finance-record-c)。
+在大一时，我认识了新朋友，并学习了编程、物理、机械与电气设计的基础知识。我在这一年完成的项目之一是 [C 语言财务记录应用](/zh-cn/post/finance-record-c/)。
 
-在大二时，我通过完成多个项目持续提升自己的能力。其中包括 [模拟汽车车内排气系统](/p/car-cabin-exhaust)、[模拟车门防撞系统](/p/impact-prevention) 和 [寻光机器人](/p/light-seeking-robot)。
+在大二时，我通过完成多个项目持续提升自己的能力。其中包括 [模拟电路汽车座舱排气系统](/zh-cn/post/car-cabin-exhaust/)、[模拟电路车门防撞系统](/zh-cn/post/impact-prevention/) 和 [寻光机器人](/zh-cn/post/light-seeking-robot/)。
 
-在大三时，我参与了 [水培 IoT 项目](/p/depok-iot-hydroponics)。我还担任助教教授低年级学生并完成了一个项目（[FIR/IIR VHDL](/p/fir-iir-vhdl)）。其他项目还包括 [防撞系统](/p/crash-prevention)、[国家医疗记录数据库](/p/medical-record-db)、[IoT 电动大门与监控系统](/p/motorized-gate) 以及 [智能汽车系统](/p/smart-car)。
+在大三时，我参与了 [水培 IoT 项目](/zh-cn/post/depok-iot-hydroponics/)。我还担任助教教授低年级学生并完成了一个项目（[FIR/IIR VHDL](/zh-cn/post/fir-iir-vhdl/)）。其他项目还包括 [防撞系统](/zh-cn/post/crash-prevention/)、[国家医疗记录数据库](/zh-cn/post/medical-record-db/)、[IoT 电动大门与监控系统](/zh-cn/post/motorized-gate/) 以及 [智能汽车系统](/zh-cn/post/smart-car/)。
 
-在大四时，我在 [Baran Energy](/p/baran-internship) 实习，并在 [Daun Pintar](/p/daun-pintar) 工作。我还完成了我的 [定日镜（heliostat）毕业论文](/p/heliostat)，并前往日本福冈参加 [夏季课程](/p/summer-course-23)。回国后，我的毕业论文项目在 [ICEEI 2023](/p/iceei-2023) 上进行了展示。
+在大四时，我在 [Baran Energy](/zh-cn/post/baran-internship/) 实习，并在 [Daun Pintar](/zh-cn/post/daun-pintar/) 工作。我还完成了我的 [定日镜（heliostat）毕业论文](/zh-cn/post/heliostat/)，并前往日本福冈参加 [夏季课程](/zh-cn/post/2023-summer-course/)。回国后，我的毕业论文项目在 [ICEEI 2023](/zh-cn/post/iceei-2023/) 上进行了展示。
 
 ## 致谢
 
-衷心感谢所有老师，特别是 Sofyan 老师，让我有机会担任数字系统课程助教；Zacky 老师，让我参与 Depok IoT 水培项目；Surya 老师，作为我实习与毕业设计的导师；Winda 老师，在项目与咨询中一直给予帮助；以及所有在学术和人生上给予指导的老师们。我也非常感谢长期合作的伙伴：Deaven Rivaldi、Felix Wiguna 和 Nicholas Sanjaya（我们一起实习、工作并完成毕业项目），感谢他们一直陪伴我成长与进步。感谢给予我实习与工作的公司，让我获得宝贵的行业经验与见解。感谢 BINUS ASO 在过去 4 年中为我提供学习的环境。最后，感谢我的父母一直以来的支持。这一切都将成为我人生中珍贵的回忆。
+衷心感谢所有老师，特别是 Sofyan 老师，让我有机会担任数字系统课程助教；Zacky 老师，让我参与 Depok IoT 水培项目；Surya 老师，作为我实习与毕业设计的导师；Winda 老师，在项目与咨询中一直给予帮助；以及所有在学术和人生上给予指导的老师们。我也非常感谢长期合作的伙伴：Deaven Rivaldi、Felix Wiguna 和 Nicholas Sanjaya（我与 Nicholas 一起实习、工作并完成毕业项目），感谢他们一直陪伴我成长与进步。感谢给予我实习与工作的公司，让我获得宝贵的行业经验与见解。感谢 BINUS ASO 在过去 4 年中为我提供学习的环境。最后，感谢我的父母一直以来的支持。这一切都将成为我人生中珍贵的回忆。
 
 ## 毕业
 
@@ -31,4 +32,3 @@ categories:
 
 ![我在校园的第一天。我是红色箭头指向的那个人。](first.jpg)
 ![我的毕业典礼当天。](final.jpg)
-

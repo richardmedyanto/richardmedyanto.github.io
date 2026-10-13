@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="search-page">
+  <div class="list-header"><h1>{{ .Title }}</h1>{{ with .Content }}<div class="content">{{ . }}</div>{{ end }}</div>
+  <div class="search-box card"><input id="search-input" type="search" aria-label="{{ i18n "nav_search" }}" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off"></div>
+  <p class="search-status" id="search-status" role="status"></p>
+  <div class="search-results" id="search-results"></div>
+</div>
+<script>
+(() => {
+  const input = document.getElementById('search-input');
+  const results = document.getElementById('search-results');
+  const status = document.getElementById('search-status');
+  let posts = [], failed = false;
+  function render() {
+    const query = input.value.trim().toLocaleLowerCase();
+    results.replaceChildren();
+    status.textContent = failed ? {{ i18n "search_error" | jsonify | safeJS }} : '';
+    if (!query || failed) return;
+    const items = posts.filter(post => (post.title + ' ' + (post.description || '') + ' ' + (post.content || '')).toLocaleLowerCase().includes(query));
+    if (!items.length) { status.textContent = {{ i18n "search_empty" | jsonify | safeJS }}; return; }
+    items.forEach(post => {
+      const card = document.createElement('article'); card.className = 'post post-card';
+      const title = document.createElement('h2');
+      const link = document.createElement('a'); link.className = 'post-link'; link.href = post.url; link.textContent = post.title; title.append(link); card.append(title);
+      if (post.description) { const description = document.createElement('p'); description.className = 'lede'; description.textContent = post.description; card.append(description); }
+      const meta = document.createElement('div'); meta.className = 'meta';
+      const date = document.createElement('span'); date.textContent = post.date; meta.append(date);
+      if (post.category && post.categoryURL) { const category = document.createElement('a'); category.className = 'cat'; category.href = post.categoryURL; category.textContent = post.category; meta.append(category); }
+      card.append(meta); results.append(card);
+    });
+  }
+  input.addEventListener('input', render);
+  fetch({{ (.RelPermalink | printf "%sindex.json") | jsonify | safeJS }})
+    .then(response => { if (!response.ok) throw new Error('Search index unavailable'); return response.json(); })
+    .then(data => { posts = data; render(); })
+    .catch(() => { failed = true; render(); });
+})();
+</script>
+{{ end }}

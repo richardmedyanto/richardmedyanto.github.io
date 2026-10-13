@@ -1,0 +1,163 @@
+{
+  "copper": {
+    "name": "Charcoal & copper",
+    "light": {
+      "canvas": "#efeae3",
+      "surface": "#fbf8f4",
+      "text": "#302923",
+      "soft": "#6f6054",
+      "accent": "#874721",
+      "selected": "#e9dccd",
+      "line": "#baa999",
+      "glass": "#fbf8f4"
+    },
+    "dark": {
+      "canvas": "#171c20",
+      "surface": "#232a30",
+      "text": "#f0ebe2",
+      "soft": "#b8bdc0",
+      "accent": "#e4ae82",
+      "selected": "#3d342d",
+      "line": "#5f6b74",
+      "glass": "#323d46"
+    }
+  },
+  "sage": {
+    "name": "Limestone & sage",
+    "light": {
+      "canvas": "#e8ece5",
+      "surface": "#f6f8f2",
+      "text": "#263228",
+      "soft": "#596758",
+      "accent": "#315e45",
+      "selected": "#dfe8dd",
+      "line": "#a4b2a0",
+      "glass": "#fafcf8"
+    },
+    "dark": {
+      "canvas": "#18221d",
+      "surface": "#25332a",
+      "text": "#edf1e8",
+      "soft": "#bac6b6",
+      "accent": "#aad0aa",
+      "selected": "#344838",
+      "line": "#576c5b",
+      "glass": "#3b4f40"
+    }
+  },
+  "plum": {
+    "name": "Pearl & plum",
+    "light": {
+      "canvas": "#eee9ee",
+      "surface": "#faf7fa",
+      "text": "#322934",
+      "soft": "#6e5d70",
+      "accent": "#704d78",
+      "selected": "#e9ddea",
+      "line": "#bdaabc",
+      "glass": "#fcf9fc"
+    },
+    "dark": {
+      "canvas": "#241f28",
+      "surface": "#342c3a",
+      "text": "#f2eaf3",
+      "soft": "#cbb9ca",
+      "accent": "#dbb1df",
+      "selected": "#4b3a52",
+      "line": "#78647c",
+      "glass": "#524358"
+    }
+  },
+  "petrol": {
+    "name": "Mist & petrol",
+    "light": {
+      "canvas": "#e6edef",
+      "surface": "#f6fafb",
+      "text": "#24353b",
+      "soft": "#516970",
+      "accent": "#245c6b",
+      "selected": "#d7e8eb",
+      "line": "#96aeb5",
+      "glass": "#fcfdfe"
+    },
+    "dark": {
+      "canvas": "#14252b",
+      "surface": "#203840",
+      "text": "#ecf5f6",
+      "soft": "#b2cbd1",
+      "accent": "#96ccd1",
+      "selected": "#2d4c53",
+      "line": "#557e87",
+      "glass": "#335a64"
+    }
+  },
+  "oxblood": {
+    "name": "Ivory & oxblood",
+    "light": {
+      "canvas": "#f0e9e3",
+      "surface": "#fcf8f3",
+      "text": "#392b2b",
+      "soft": "#775f5b",
+      "accent": "#853f46",
+      "selected": "#eddadd",
+      "line": "#bea09d",
+      "glass": "#fffbf6"
+    },
+    "dark": {
+      "canvas": "#2b1e21",
+      "surface": "#3d2a2e",
+      "text": "#f7eeee",
+      "soft": "#d7babc",
+      "accent": "#e6adb2",
+      "selected": "#57373d",
+      "line": "#885b64",
+      "glass": "#64414a"
+    }
+  },
+  "navy": {
+    "name": "Cloud & indigo",
+    "light": {
+      "canvas": "#e8ebf1",
+      "surface": "#f8f9fc",
+      "text": "#263146",
+      "soft": "#5c677e",
+      "accent": "#365788",
+      "selected": "#dce4f0",
+      "line": "#aab7c9",
+      "glass": "#fcfdff"
+    },
+    "dark": {
+      "canvas": "#1b2232",
+      "surface": "#293248",
+      "text": "#eff2f9",
+      "soft": "#bdc7dc",
+      "accent": "#b3c9f2",
+      "selected": "#374866",
+      "line": "#677c9d",
+      "glass": "#3d4d6b"
+    }
+  },
+  "ochre": {
+    "name": "Linen & ochre",
+    "light": {
+      "canvas": "#f0eadb",
+      "surface": "#fcf9f1",
+      "text": "#3a3224",
+      "soft": "#74664c",
+      "accent": "#785b22",
+      "selected": "#e9debf",
+      "line": "#b9a783",
+      "glass": "#fefbf3"
+    },
+    "dark": {
+      "canvas": "#27231b",
+      "surface": "#383126",
+      "text": "#f6f0e0",
+      "soft": "#cec3ac",
+      "accent": "#e2c37f",
+      "selected": "#4f422a",
+      "line": "#897650",
+      "glass": "#5a4c32"
+    }
+  }
+}

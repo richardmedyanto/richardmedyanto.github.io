@@ -3,6 +3,7 @@ title: "Baran Energy 实习经历"
 description: "我在 Baran Energy 担任硬件工程师实习生的经历。"
 slug: "baran-internship"
 date: 2022-10-18 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - Work
 ---
@@ -11,7 +12,7 @@ categories:
 
 ## 关于 Baran Energy
 
-Baran Energy（PT. Aldebaran Rekayasa Cipta）是一家印度尼西亚初创公司，专注于开发储能系统、电动摩托车以及农业部门（Baran Farm）。公司办公室位于 BSD City 的 Foresta Business Loft。
+Baran Energy（PT. Aldebaran Rekayasa Cipta）是一家印度尼西亚初创公司，专注于开发储能系统与电动摩托车，并设有名为 Baran Farm 的农业部门。公司办公室位于 BSD City 的 Foresta Business Loft。
 
 ## 我的经历
 
@@ -27,7 +28,6 @@ Baran Energy 是我人生中的第一次实习经历。在刚开始时，我对�
 
 ## 后记
 
-我由衷感谢 Baran Energy 以及公司中的每一位成员，让我在参与水培自动化系统开发的过程中获得了宝贵的实习经验。这次机会不仅让我参与了一个有意义的项目，也让我对校园之外的世界有了更深入的理解。与不同背景的人交流，甚至进行讨论与辩论，使我学会以更批判性和多元化的视角看待问题。
+我由衷感谢 Baran Energy 以及公司中的每一位成员，让我在参与水培自动化系统开发的过程中获得了宝贵的实习经验。这次机会不仅让我参与了一个有意义的项目，也让我对校园之外的世界有了更深入的理解。与不同背景的人交流，进行讨论，偶尔也展开辩论，使我学会批判性地思考，并从不同视角处理问题。
 
 完成这段实习让我充满成就感，也让我建立了宝贵的人脉，并为未来的发展打下了坚实基础。这段实习中的收获与回忆，无疑将对我的职业道路产生积极而深远的影响。
-

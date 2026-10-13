@@ -3,6 +3,7 @@ title: "2023 日本暑期课程"
 description: "我在 2023 年暑期课程期间于日本福冈的经历。"
 slug: "2023-summer-course"
 date: 2023-09-15 00:00:00+0000
+lastmod: 2026-10-13T16:54:05Z
 categories:
     - Others
     - Work
@@ -18,11 +19,10 @@ categories:
 
 ![参观小仓城](summer-course.jpg)
 
-## FA Support 实习
+## FA Support 实习 {#fa-support-internship}
 
 夏季课程还包含为期一个月的实习项目。我所在的公司是 FA Support（ＦＡサポート），一家日本工业自动化公司。实习在夏季课程正式开始前就已启动。我们首先被介绍了项目需求，即设计一个自动托盘投放装置的概念方案。项目成果为一个 3D 设计以及概念展示。
 
 在夏季课程期间，我们向公司社长及员工展示了我们的成果。他们给予了许多宝贵的反馈，帮助我们对最终展示进行了多次改进。总体而言，这段实习虽然时间不长，但却是一次非常有趣的经历。
 
 ![实习证书](summer_course_certificate.jpg)
-
